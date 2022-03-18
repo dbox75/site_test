@@ -203,9 +203,6 @@ menu:
   - path: /faq
     translation_key: menu.faq
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
