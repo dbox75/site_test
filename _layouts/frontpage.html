@@ -10,7 +10,7 @@
     <div class="goal-tiles">
         <div class="row no-gutters">
             {% for goal in page.goals %}
-            <div class="col-xs-4 col-md-2 goal-tile">
+            <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="{{ goal.url }}">
                     <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
                 </a>
