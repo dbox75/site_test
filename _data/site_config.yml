@@ -116,7 +116,7 @@ frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: 'https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
