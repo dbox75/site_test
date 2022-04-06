@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/en',
+  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 11 - Sustainable cities &amp; communities - Indicators For The Sustainable Development Goals</title>
+    <title>목표 11 - 지속가능한 도시와 주거지 - 한국의 SDGs 데이터 플랫폼</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406045521">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406055838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ko
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site_test/" id="home">
-    <img src="/site_test/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site_test/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,11 +209,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/11/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">검색</label>
+    <input type="text" name="q" id="indicator_search" title="검색" /><!--
+    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/11/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -292,13 +292,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -312,11 +312,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/11/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -329,8 +329,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -341,8 +341,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,23 +361,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">검색</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
+    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li>
@@ -398,7 +398,7 @@ data-event-label="high"
   <ol class="breadcrumb">
   
   <li><a href="/site_test/">Home</a></li>
-  <li><a href="/site_test/goals">Goals</a></li>
+  <li><a href="/site_test/goals">17개 목표</a></li>
   
   
 </ol>
@@ -410,11 +410,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" id="goal-11" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/11.png" alt="지속가능한 도시와 주거지 - 목표 11" id="goal-11" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 11: </span>Make cities and human settlements inclusive, safe, resilient and sustainable
+          <span class="hidden-sm hidden-md hidden-lg">목표 11: </span>포용적이고 안전하며 회복력 있고 지속가능한 도시와 주거지 조성
         </h1>
       </div>
     </div>
@@ -436,9 +436,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.1</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.1</span>
         </h3>
-        <span class="target-name">By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums</span>
+        <span class="target-name">적정주택 및 기본서비스에 대한 접근 보장, 슬럼 개선</span>
         
 
           
@@ -447,17 +447,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.1.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-1-1">Proportion of urban population living in slums, informal settlements or inadequate housing</a></span>
+            <span class="indicator-name"><a href="/site_test/11-1-1">빈민가, 임시거처 또는 최소한의 요건을 갖추지 못한 주거시설에 거주하는 도시인구비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -475,9 +475,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.2</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.2</span>
         </h3>
-        <span class="target-name">By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons</span>
+        <span class="target-name">대중교통 접근성 향상</span>
         
 
           
@@ -486,17 +486,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.2.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-2-1">Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/site_test/11-2-1">대중교통에 편리하게 접근할 수 있는 인구비율(연령, 성 및 장애별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -514,9 +514,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.3</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.3</span>
         </h3>
-        <span class="target-name">By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries</span>
+        <span class="target-name">통합적, 지속가능한 정주지 계획, 관리</span>
         
 
           
@@ -525,17 +525,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.3.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-3-1">Ratio of land consumption rate to population growth rate</a></span>
+            <span class="indicator-name"><a href="/site_test/11-3-1">인구성장률 대비 토지소모 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -555,17 +555,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.3.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.3.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-3-2">Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically</a></span>
+            <span class="indicator-name"><a href="/site_test/11-3-2">정기적이고 민주적으로 운영되는 도시계획 및 관리에 시민사회가 직접 참여하는 구조를 가지고 있는 도시의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -583,9 +583,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.4</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.4</span>
         </h3>
-        <span class="target-name">Strengthen efforts to protect and safeguard the world’s cultural and natural heritage</span>
+        <span class="target-name">세계문화유산 보존 노력 강화</span>
         
 
           
@@ -594,17 +594,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.4.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.4.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-4-1">Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)</a></span>
+            <span class="indicator-name"><a href="/site_test/11-4-1">모든 문화 및 자연유산의 보존, 보호 및 관리에 배정된 1인당 총 지출액(자금원천(공공, 민간), 유산종류(문화, 자연), 정부유형(중앙, 광역, 시군)별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -622,9 +622,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.5</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.5</span>
         </h3>
-        <span class="target-name">By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations</span>
+        <span class="target-name">재난으로 인한 피해 감소</span>
         
 
           
@@ -633,17 +633,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.5.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.5.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-5-1">Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</a></span>
+            <span class="indicator-name"><a href="/site_test/11-5-1">인구 1십만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -663,17 +663,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.5.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.5.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-5-2">Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters</a></span>
+            <span class="indicator-name"><a href="/site_test/11-5-2">중요 기반시설 피해 및 기본적인 서비스의 중단 등 재난으로 인한 GDP 대비 직접적인 경제적 손실</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -691,9 +691,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.6</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.6</span>
         </h3>
-        <span class="target-name">By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management</span>
+        <span class="target-name">대기질과 폐기물 관리</span>
         
 
           
@@ -702,17 +702,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.6.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.6.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-6-1">Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities</a></span>
+            <span class="indicator-name"><a href="/site_test/11-6-1">지자체에서 수거되고 관리되는 고형 폐기물 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -732,17 +732,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.6.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.6.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-6-2">Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)</a></span>
+            <span class="indicator-name"><a href="/site_test/11-6-2">도시 미세먼지의 연평균수준 (인구수에 따른 가중)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -760,9 +760,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.7</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.7</span>
         </h3>
-        <span class="target-name">By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities</span>
+        <span class="target-name">취약계층을 고려한 공공 공간에 대한 보편적 접근 제공</span>
         
 
           
@@ -771,17 +771,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.7.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.7.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-7-1">Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/site_test/11-7-1">도시에서 공공목적의 용도를 위해 개방된 공용 공간이 차지하는 평균비율 (연령, 성 및 장애별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -801,17 +801,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.7.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.7.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-7-2">Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months</a></span>
+            <span class="indicator-name"><a href="/site_test/11-7-2">지난 12개월 동안 신체적 혹은 성적 괴롭힘을 당한 인구의 성, 연령, 장애, 발생장소별 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -829,9 +829,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.a</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.a</span>
         </h3>
-        <span class="target-name">Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning</span>
+        <span class="target-name">도시 및 지역개발계획 역할강화</span>
         
 
           
@@ -840,17 +840,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.a.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.a.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-a-1">Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space</a></span>
+            <span class="indicator-name"><a href="/site_test/11-a-1">(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가의 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -868,9 +868,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 11.b</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 11.b</span>
         </h3>
-        <span class="target-name">By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels</span>
+        <span class="target-name">재난 복원력 강화</span>
         
 
           
@@ -879,17 +879,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.b.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.b.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-b-1">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</a></span>
+            <span class="indicator-name"><a href="/site_test/11-b-1">「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -909,17 +909,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 11.b.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 11.b.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/11-b-2">Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</a></span>
+            <span class="indicator-name"><a href="/site_test/11-b-2">국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -960,7 +960,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site_test/about/cookies-and-privacy/">Cookies</a>
+                <a href="/site_test/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -998,14 +998,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220406045521'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220406055838'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220406045521"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220406055838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

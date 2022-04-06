@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/en',
+  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 10 - Reduced inequalities - Indicators For The Sustainable Development Goals</title>
+    <title>목표 10 - 불평등 감소 - 한국의 SDGs 데이터 플랫폼</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406045521">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406055838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ko
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site_test/" id="home">
-    <img src="/site_test/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site_test/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,11 +209,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/10/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">검색</label>
+    <input type="text" name="q" id="indicator_search" title="검색" /><!--
+    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/10/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -292,13 +292,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -312,11 +312,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/10/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -329,8 +329,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -341,8 +341,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,23 +361,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">검색</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
+    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li>
@@ -398,7 +398,7 @@ data-event-label="high"
   <ol class="breadcrumb">
   
   <li><a href="/site_test/">Home</a></li>
-  <li><a href="/site_test/goals">Goals</a></li>
+  <li><a href="/site_test/goals">17개 목표</a></li>
   
   
 </ol>
@@ -410,11 +410,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/10.png" alt="불평등 감소 - 목표 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 10: </span>Reduce inequality within and among countries
+          <span class="hidden-sm hidden-md hidden-lg">목표 10: </span>국내 및 국가 간 불평등 감소
         </h1>
       </div>
     </div>
@@ -436,9 +436,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.1</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.1</span>
         </h3>
-        <span class="target-name">By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</span>
+        <span class="target-name">하위 40% 인구 소득성장을 높은 수준으로 달성</span>
         
 
           
@@ -447,17 +447,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.1.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-1-1">Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</a></span>
+            <span class="indicator-name"><a href="/site_test/10-1-1">총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -475,9 +475,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.2</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.2</span>
         </h3>
-        <span class="target-name">By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</span>
+        <span class="target-name">모두를 위한 사회, 경제, 정치적 포용을 증진</span>
         
 
           
@@ -486,17 +486,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.2.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-2-1">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/site_test/10-2-1">중위소득 50% 미만 인구의 성, 연령 및 장애별 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -514,9 +514,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.3</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.3</span>
         </h3>
-        <span class="target-name">Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard</span>
+        <span class="target-name">차별적인 법규 철폐와 불평등 감소</span>
         
 
           
@@ -525,17 +525,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.3.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-3-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
+            <span class="indicator-name"><a href="/site_test/10-3-1">국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -553,9 +553,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.4</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.4</span>
         </h3>
-        <span class="target-name">Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</span>
+        <span class="target-name">사회보호정책 도입과 높은 수준 평등 달성</span>
         
 
           
@@ -564,17 +564,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.4.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.4.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-4-1">Labour share of GDP</a></span>
+            <span class="indicator-name"><a href="/site_test/10-4-1">GDP 대비 노동소득 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -594,17 +594,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.4.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.4.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-4-2">Redistributive impact of fiscal policy</a></span>
+            <span class="indicator-name"><a href="/site_test/10-4-2">재정 정책의 재분배 효과</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -622,9 +622,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.5</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.5</span>
         </h3>
-        <span class="target-name">Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</span>
+        <span class="target-name">전 세계 금융시장 규제와 모니터링 개선</span>
         
 
           
@@ -633,17 +633,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.5.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.5.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-5-1">Financial Soundness Indicators</a></span>
+            <span class="indicator-name"><a href="/site_test/10-5-1">금융건전성지표</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -661,9 +661,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.6</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.6</span>
         </h3>
-        <span class="target-name">Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</span>
+        <span class="target-name">국제 금융기구에서 개도국의 발언권 강화</span>
         
 
           
@@ -672,17 +672,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.6.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.6.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-6-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
+            <span class="indicator-name"><a href="/site_test/10-6-1">국제기구에서 개발도상국의 회원 및 투표권 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -700,9 +700,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.7</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.7</span>
         </h3>
-        <span class="target-name">Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</span>
+        <span class="target-name">책임성 있는 이주 및 인구이동 실현</span>
         
 
           
@@ -711,17 +711,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.7.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-7-1">Recruitment cost borne by employee as a proportion of monthly income earned in country of destination</a></span>
+            <span class="indicator-name"><a href="/site_test/10-7-1">이주국가에서 얻은 월소득 대비 이주노동자가 부담하는 고용비용의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -741,17 +741,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.7.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-7-2">Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people</a></span>
+            <span class="indicator-name"><a href="/site_test/10-7-2">질서 있고 안전하고 정규적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -771,17 +771,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.3</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.7.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-7-3">Number of people who died or disappeared in the process of migration towards an international destination</a></span>
+            <span class="indicator-name"><a href="/site_test/10-7-3">국제이주 과정에서 사망하거나 실종된 사람의 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -801,17 +801,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.4</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.7.4</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-7-4">Proportion of the population who are refugees, by country of origin</a></span>
+            <span class="indicator-name"><a href="/site_test/10-7-4">출신국별 난민 인구 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -829,9 +829,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.a</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.a</span>
         </h3>
-        <span class="target-name">Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements</span>
+        <span class="target-name">개도국에 대한 특별 차등 대우 원칙 이행</span>
         
 
           
@@ -840,17 +840,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.a.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.a.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-a-1">Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff</a></span>
+            <span class="indicator-name"><a href="/site_test/10-a-1">최빈개도국과 개발도상국으로부터의 수입에 적용되는 무관세 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -868,9 +868,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.b</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.b</span>
         </h3>
-        <span class="target-name">Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</span>
+        <span class="target-name">개도국에 대한 공적개발원조와 자금 거래 장려</span>
         
 
           
@@ -879,17 +879,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.b.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.b.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-b-1">Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</a></span>
+            <span class="indicator-name"><a href="/site_test/10-b-1">공여국과 수원국별 및 유형별 개발재원 총액(ODA, 해외직접투자 등)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -907,9 +907,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.c</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 10.c</span>
         </h3>
-        <span class="target-name">By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent</span>
+        <span class="target-name">이주자 송금비용을 3% 미만으로 감소</span>
         
 
           
@@ -918,17 +918,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.c.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 10.c.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/10-c-1">Remittance costs as a proportion of the amount remitted</a></span>
+            <span class="indicator-name"><a href="/site_test/10-c-1">송금총액 대비 송금비용 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -969,7 +969,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site_test/about/cookies-and-privacy/">Cookies</a>
+                <a href="/site_test/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -1007,14 +1007,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220406045521'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220406055838'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220406045521"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220406055838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/en',
+  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 8 - Decent jobs and economic growth - Indicators For The Sustainable Development Goals</title>
+    <title>목표 8 - 경제성장과 양질의 일자리 - 한국의 SDGs 데이터 플랫폼</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406045521">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406055838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ko
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site_test/" id="home">
-    <img src="/site_test/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site_test/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,11 +209,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/8/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">검색</label>
+    <input type="text" name="q" id="indicator_search" title="검색" /><!--
+    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/8/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -292,13 +292,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -312,11 +312,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/8/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -329,8 +329,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -341,8 +341,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,23 +361,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">검색</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
+    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li>
@@ -398,7 +398,7 @@ data-event-label="high"
   <ol class="breadcrumb">
   
   <li><a href="/site_test/">Home</a></li>
-  <li><a href="/site_test/goals">Goals</a></li>
+  <li><a href="/site_test/goals">17개 목표</a></li>
   
   
 </ol>
@@ -410,11 +410,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" id="goal-8" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/8.png" alt="경제성장과 양질의 일자리 - 목표 8" id="goal-8" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 8: </span>Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+          <span class="hidden-sm hidden-md hidden-lg">목표 8: </span>모두를 위한 지속적이고 포용적이며 지속가능한 경제성장, 완전하고 생산적인 고용과 양질의 일자리 증진
         </h1>
       </div>
     </div>
@@ -436,9 +436,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.1</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.1</span>
         </h3>
-        <span class="target-name">Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries</span>
+        <span class="target-name">1인당 소득 증가 유지</span>
         
 
           
@@ -447,17 +447,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.1.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-1-1">Annual growth rate of real GDP per capita</a></span>
+            <span class="indicator-name"><a href="/site_test/8-1-1">1인당 실질 GDP의 연 성장률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -475,9 +475,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.2</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.2</span>
         </h3>
-        <span class="target-name">Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors</span>
+        <span class="target-name">산업다변화, 기술발전, 혁신을 통한 경제 생산성 향상</span>
         
 
           
@@ -486,17 +486,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.2.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-2-1">Annual growth rate of real GDP per employed person</a></span>
+            <span class="indicator-name"><a href="/site_test/8-2-1">취업자 1인당 실질 GDP의 연 성장률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -514,9 +514,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.3</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.3</span>
         </h3>
-        <span class="target-name">Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services</span>
+        <span class="target-name">개발 지향적 정책 진흥 및 중소기업 성장 장려</span>
         
 
           
@@ -525,17 +525,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.3.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-3-1">Proportion of informal employment in total employment, by sector and sex</a></span>
+            <span class="indicator-name"><a href="/site_test/8-3-1">전체 고용 부문의 비공식 고용률 (부문별, 성별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -553,9 +553,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.4</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.4</span>
         </h3>
-        <span class="target-name">Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10‐Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead</span>
+        <span class="target-name">자원 효율성 개선 및 경제성장을 환경 악화로부터 분리</span>
         
 
           
@@ -564,17 +564,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.4.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.4.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-4-1">Material footprint, material footprint per capita, and material footprint per GDP</a></span>
+            <span class="indicator-name"><a href="/site_test/8-4-1">총 및 1인당 물질발자국, GDP 대비 물질발자국</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -594,17 +594,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.4.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.4.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-4-2">Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP</a></span>
+            <span class="indicator-name"><a href="/site_test/8-4-2">총 및 1인당 물질소비량, GDP 대비 물질소비량</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -622,9 +622,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.5</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.5</span>
         </h3>
-        <span class="target-name">By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value</span>
+        <span class="target-name">완전하고 생산적인 고용, 양질의 일자리 확보 및 동일노동에 대한 동일임금 달성</span>
         
 
           
@@ -633,17 +633,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.5.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.5.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-5-1">Average hourly earnings of employees, by sex, age, occupation and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/site_test/8-5-1">근로자의 평균 시간당 임금 (성, 연령, 직업 및 장애별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -663,17 +663,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.5.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.5.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-5-2">Unemployment rate, by sex, age and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/site_test/8-5-2">실업률 (성, 연령, 장애인별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -691,9 +691,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.6</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.6</span>
         </h3>
-        <span class="target-name">By 2020, substantially reduce the proportion of youth not in employment, education or training</span>
+        <span class="target-name">청년 니트(NEET) 비율 감소</span>
         
 
           
@@ -702,17 +702,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.6.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.6.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-6-1">Proportion of youth (aged 15–24 years) not in education, employment or training</a></span>
+            <span class="indicator-name"><a href="/site_test/8-6-1">교육, 취업, 혹은 훈련 상태에 있지 않은 청소년(15-24세)의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -730,9 +730,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.7</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.7</span>
         </h3>
-        <span class="target-name">Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms</span>
+        <span class="target-name">모든 형태의 아동노동 종식</span>
         
 
           
@@ -741,17 +741,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.7.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.7.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-7-1">Proportion and number of children aged 5–17 years engaged in child labour, by sex and age</a></span>
+            <span class="indicator-name"><a href="/site_test/8-7-1">5-17세 아동 중 아동노동인구와 비율(성 및 연령별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -769,9 +769,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.8</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.8</span>
         </h3>
-        <span class="target-name">Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment</span>
+        <span class="target-name">노동권 보호 및 안정적 근로환경 증진</span>
         
 
           
@@ -780,17 +780,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.8.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.8.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-8-1">Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status</a></span>
+            <span class="indicator-name"><a href="/site_test/8-8-1">노동자 십만 명당 치명적 및 비치명적 산업 재해 건수(성별 및 이주 상태별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -810,17 +810,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.8.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.8.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-8-2">Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status</a></span>
+            <span class="indicator-name"><a href="/site_test/8-8-2">국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준 (성 및 이주 상태별)</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -838,9 +838,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.9</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.9</span>
         </h3>
-        <span class="target-name">By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products</span>
+        <span class="target-name">지속가능한 관광 진흥 정책 개발, 이행</span>
         
 
           
@@ -849,17 +849,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.9.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.9.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-9-1">Tourism direct GDP as a proportion of total GDP and in growth rate</a></span>
+            <span class="indicator-name"><a href="/site_test/8-9-1">전체 GDP 및 성장률에 관광분야가 직접적으로 기여하는 GDP 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -877,9 +877,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.10</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.10</span>
         </h3>
-        <span class="target-name">Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</span>
+        <span class="target-name">금융서비스 접근 확대 및 금융기관 역량 강화</span>
         
 
           
@@ -888,17 +888,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.10.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.10.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-10-1">(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults</a></span>
+            <span class="indicator-name"><a href="/site_test/8-10-1">(a) 성인 십만 명당 상업은행 지점들과 (b) 성인 십만 명당 ATM의 개수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -918,56 +918,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.10.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.10.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-10-2">Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider</a></span>
+            <span class="indicator-name"><a href="/site_test/8-10-2">은행이나 기타 금융기관, 혹은 모바일 금융서비스 제공자의 계좌를 보유하고 있는 (15세 이상) 성인인구 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
-</span>
-
-
-            
-
-
-
-
-
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.a</span>
-        </h3>
-        <span class="target-name">Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-related Technical Assistance to Least Developed Countries</span>
-        
-
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.a.1</span>
-            </h4>
-            
-            <span class="indicator-name"><a href="/site_test/8-a-1">Aid for Trade commitments and disbursements</a></span>
-            <span class="sr-only">Indicator status</span>
-            
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -985,9 +946,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 8.b</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.a</span>
         </h3>
-        <span class="target-name">By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization</span>
+        <span class="target-name">최빈개도국에 대한 무역 원조 지원 확대</span>
         
 
           
@@ -996,17 +957,56 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 8.b.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.a.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/8-b-1">Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy</a></span>
+            <span class="indicator-name"><a href="/site_test/8-a-1">무역원조(Aid for Trade) 약정 및 지불</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+            
+
+
+
+
+
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">세부목표</span> 8.b</span>
+        </h3>
+        <span class="target-name">국제노동기구(ILO) 세계고용협약 이행</span>
+        
+
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">지표</span> 8.b.1</span>
+            </h4>
+            
+            <span class="indicator-name"><a href="/site_test/8-b-1">청년층 고용에 대한 국가 계획 개발 및 운영여부 – 별도 계획 혹은 국가 계획의 일부 인지 여부</a></span>
+            <span class="sr-only">Indicator status</span>
+            
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1047,7 +1047,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site_test/about/cookies-and-privacy/">Cookies</a>
+                <a href="/site_test/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -1085,14 +1085,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220406045521'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220406055838'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220406045521"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220406055838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

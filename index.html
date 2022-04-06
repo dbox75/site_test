@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/en',
+  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Indicators For The Sustainable Development Goals</title>
+    <title>한국의 SDGs 데이터 플랫폼</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406045521">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406055838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ko
 layout-frontpage
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-frontpage
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site_test/" id="home">
-    <img src="/site_test/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site_test/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,11 +209,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">검색</label>
+    <input type="text" name="q" id="indicator_search" title="검색" /><!--
+    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -292,13 +292,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -312,11 +312,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -329,8 +329,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -341,8 +341,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,23 +361,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">검색</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
+    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li>
@@ -395,7 +395,7 @@ data-event-label="high"
 
 
 <br><h1 style="text-align: center;font-family: 'Nanum Gothic';font-size:50px;font-weight:bolder;">
-
+한국의 SDGs 데이터 플랫폼
 </h1><br><br>
 
 <div id="main-content" class="container" role="main">
@@ -405,7 +405,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/1">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/1.png" id="goal-1" alt="No poverty - Goal 1" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/1.png" id="goal-1" alt="빈곤퇴치 - 목표 1" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -414,7 +414,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/2">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/2.png" id="goal-2" alt="Zero hunger - Goal 2" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/2.png" id="goal-2" alt="기아종식 - 목표 2" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -423,7 +423,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/3">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/3.png" id="goal-3" alt="Good health and well-being - Goal 3" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/3.png" id="goal-3" alt="건강과 웰빙 증진 - 목표 3" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -432,7 +432,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/4">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/4.png" id="goal-4" alt="Quality education - Goal 4" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/4.png" id="goal-4" alt="양질의 교육 보장 - 목표 4" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -444,7 +444,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/5">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/5.png" id="goal-5" alt="Gender equality - Goal 5" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/5.png" id="goal-5" alt="성평등 달성 - 목표 5" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -453,7 +453,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/6">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/6.png" id="goal-6" alt="Clean water and sanitation - Goal 6" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/6.png" id="goal-6" alt="깨끗한 물과 위생 보장 - 목표 6" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -462,7 +462,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/7">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/7.png" id="goal-7" alt="Affordable and clean energy - Goal 7" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/7.png" id="goal-7" alt="깨끗한 에너지 - 목표 7" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -471,7 +471,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/8">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/8.png" id="goal-8" alt="Decent jobs and economic growth - Goal 8" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/8.png" id="goal-8" alt="경제성장과 양질의 일자리 - 목표 8" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -480,7 +480,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/9">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/9.png" id="goal-9" alt="Industry, innovation and infrastructure - Goal 9" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/9.png" id="goal-9" alt="사회기반시설 산업화 및 혁신 - 목표 9" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -489,7 +489,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/10">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/10.png" id="goal-10" alt="Reduced inequalities - Goal 10" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/10.png" id="goal-10" alt="불평등 감소 - 목표 10" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -498,7 +498,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/11">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/11.png" id="goal-11" alt="Sustainable cities &amp; communities - Goal 11" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/11.png" id="goal-11" alt="지속가능한 도시와 주거지 - 목표 11" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -507,7 +507,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/12">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/12.png" id="goal-12" alt="Responsible consumption and production - Goal 12" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/12.png" id="goal-12" alt="지속가능한 소비와 생산 - 목표 12" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -516,7 +516,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/13">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/13.png" id="goal-13" alt="Climate action - Goal 13" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/13.png" id="goal-13" alt="기후변화 대응 - 목표 13" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -525,7 +525,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/14">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/14.png" id="goal-14" alt="Life below water - Goal 14" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/14.png" id="goal-14" alt="해양 생태계 보존 - 목표 14" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -534,7 +534,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/15">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/15.png" id="goal-15" alt="Life on land - Goal 15" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/15.png" id="goal-15" alt="육상 생태계 보호 - 목표 15" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -543,7 +543,7 @@ data-event-label="high"
             
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="/site_test/16">
-                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/16.png" id="goal-16" alt="Peace and justice - strong institutions - Goal 16" class="goal-icon-image goal-icon-image-" />
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/16.png" id="goal-16" alt="평화 정의 포용적인 제도 - 목표 16" class="goal-icon-image goal-icon-image-" />
                 </a>
             </div>
             
@@ -583,7 +583,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site_test/about/cookies-and-privacy/">Cookies</a>
+                <a href="/site_test/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -621,14 +621,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220406045521'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220406055838'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220406045521"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220406055838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/en',
+  remoteDataBaseUrl: 'https://dbox75.github.io/data_test/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 3 - Good health and well-being - Indicators For The Sustainable Development Goals</title>
+    <title>목표 3 - 건강과 웰빙 증진 - 한국의 SDGs 데이터 플랫폼</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406045521">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220406055838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ko
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site_test/" id="home">
-    <img src="/site_test/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site_test/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,11 +209,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/3/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">검색</label>
+    <input type="text" name="q" id="indicator_search" title="검색" /><!--
+    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/3/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -292,13 +292,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -312,11 +312,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-es">
-            <a href="/site_test/es/3/">
-              Español
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/site_test/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -329,8 +329,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -341,8 +341,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,23 +361,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">검색</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
+    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site_test/goals">Goals</a>
+    <a href="/site_test/goals">17개 목표</a>
 </li><li class="nav-link ">
-    <a href="/site_test/reporting-status">Reporting Status</a>
+    <a href="/site_test/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/site_test/about">About</a>
+    <a href="/site_test/about">SDGs 소개</a>
 </li><li class="nav-link ">
     <a href="/site_test/faq">FAQ</a>
 </li>
@@ -398,7 +398,7 @@ data-event-label="high"
   <ol class="breadcrumb">
   
   <li><a href="/site_test/">Home</a></li>
-  <li><a href="/site_test/goals">Goals</a></li>
+  <li><a href="/site_test/goals">17개 목표</a></li>
   
   
 </ol>
@@ -410,11 +410,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/3.png" alt="건강과 웰빙 증진 - 목표 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
+          <span class="hidden-sm hidden-md hidden-lg">목표 3: </span>모든 연령층의 모두를 위한 건강한 삶 보장과 웰빙 증진
         </h1>
       </div>
     </div>
@@ -436,9 +436,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.1</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.1</span>
         </h3>
-        <span class="target-name">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</span>
+        <span class="target-name">산모 사망률 감소</span>
         
 
           
@@ -447,17 +447,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-1-1">Maternal mortality ratio</a></span>
+            <span class="indicator-name"><a href="/site_test/3-1-1">모성사망비</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -477,17 +477,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.1.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-1-2">Proportion of births attended by skilled health personnel</a></span>
+            <span class="indicator-name"><a href="/site_test/3-1-2">숙련된 의료인력이 참여한 출산 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -505,9 +505,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.2</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.2</span>
         </h3>
-        <span class="target-name">By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</span>
+        <span class="target-name">신생아 및 5세 미만 아동 사망 감소</span>
         
 
           
@@ -516,17 +516,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-2-1">Under‐5 mortality rate</a></span>
+            <span class="indicator-name"><a href="/site_test/3-2-1">5세 미만 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -546,17 +546,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.2.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-2-2">Neonatal mortality rate</a></span>
+            <span class="indicator-name"><a href="/site_test/3-2-2">신생아 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -574,9 +574,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.3</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.3</span>
         </h3>
-        <span class="target-name">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
+        <span class="target-name">감염성 질병 퇴치</span>
         
 
           
@@ -585,17 +585,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-3-1">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</a></span>
+            <span class="indicator-name"><a href="/site_test/3-3-1">비감염인구 1천 명당 인체면역결핍바이러스(HIV) 신규 감염자의 성·연령 및 주요 인구특성별 수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -615,17 +615,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.3.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-3-2">Tuberculosis incidence per 100,000 population</a></span>
+            <span class="indicator-name"><a href="/site_test/3-3-2">인구 1십만 명당 결핵 발생건수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -645,17 +645,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.3</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.3.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-3-3">Malaria incidence per 1,000 population</a></span>
+            <span class="indicator-name"><a href="/site_test/3-3-3">인구 1천 명당 말라리아 발생건수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -675,17 +675,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.4</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.3.4</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-3-4">Hepatitis B incidence per 100,000 population</a></span>
+            <span class="indicator-name"><a href="/site_test/3-3-4">인구 1십만 명당 B형간염 발생건수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -705,17 +705,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.5</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.3.5</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-3-5">Number of people requiring interventions against neglected tropical diseases</a></span>
+            <span class="indicator-name"><a href="/site_test/3-3-5">소외열대질환 치료가 필요한 인구수</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -733,9 +733,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.4</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.4</span>
         </h3>
-        <span class="target-name">By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</span>
+        <span class="target-name">비감염성 질병 조기 사망 감소, 정신건강 및 복리 증진</span>
         
 
           
@@ -744,17 +744,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.4.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-4-1">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</a></span>
+            <span class="indicator-name"><a href="/site_test/3-4-1">심혈관계질환, 암, 당뇨 또는 만성호흡기질환 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -774,17 +774,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.4.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-4-2">Suicide mortality rate</a></span>
+            <span class="indicator-name"><a href="/site_test/3-4-2">자살 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -802,9 +802,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.5</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.5</span>
         </h3>
-        <span class="target-name">Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</span>
+        <span class="target-name">약물 오남용 예방 및 치료 강화</span>
         
 
           
@@ -813,17 +813,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.5.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-5-1">Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders</a></span>
+            <span class="indicator-name"><a href="/site_test/3-5-1">약물사용장애 치료개입(약물치료 개입, 심리사회적 개입, 재활 개입) 보장률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -843,17 +843,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.5.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-5-2">Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</a></span>
+            <span class="indicator-name"><a href="/site_test/3-5-2">연간 15세 이상 1인당 순 알코올 소비량</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -871,9 +871,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.6</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.6</span>
         </h3>
-        <span class="target-name">By 2020, halve the number of global deaths and injuries from road traffic accidents</span>
+        <span class="target-name">교통사고 사망 및 상해를 절반으로 감소</span>
         
 
           
@@ -882,17 +882,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.6.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.6.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-6-1">Death rate due to road traffic injuries</a></span>
+            <span class="indicator-name"><a href="/site_test/3-6-1">도로교통사고 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -910,9 +910,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.7</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.7</span>
         </h3>
-        <span class="target-name">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</span>
+        <span class="target-name">성 및 재생산 보건 서비스 접근 보장</span>
         
 
           
@@ -921,17 +921,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.7.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-7-1">Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods</a></span>
+            <span class="indicator-name"><a href="/site_test/3-7-1">현대적 피임법 사용으로 가족계획 욕구가 충족되는 가임기(15-49세) 여성의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -951,17 +951,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.7.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-7-2">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</a></span>
+            <span class="indicator-name"><a href="/site_test/3-7-2">여성 청소년(10-14세, 15-19세) 출산율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -979,9 +979,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.8</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.8</span>
         </h3>
-        <span class="target-name">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</span>
+        <span class="target-name">모두를 위한 보편적 의료보장 달성</span>
         
 
           
@@ -990,17 +990,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.8.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-8-1">Coverage of essential health services</a></span>
+            <span class="indicator-name"><a href="/site_test/3-8-1">필수보건서비스 보장</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1020,17 +1020,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.8.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-8-2">Proportion of population with large household expenditures on health as a share of total household expenditure or income</a></span>
+            <span class="indicator-name"><a href="/site_test/3-8-2">가구 총지출 및 소득 대비 의료비과부담 인구 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1048,9 +1048,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.9</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.9</span>
         </h3>
-        <span class="target-name">By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</span>
+        <span class="target-name">유해물질 및 환경 오염으로 인한 사망 및 질병 감소</span>
         
 
           
@@ -1059,17 +1059,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.9.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-9-1">Mortality rate attributed to household and ambient air pollution</a></span>
+            <span class="indicator-name"><a href="/site_test/3-9-1">실내공기오염 및 대기오염으로 인한 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1089,17 +1089,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.9.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-9-2">Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)</a></span>
+            <span class="indicator-name"><a href="/site_test/3-9-2">안전하지 않은 물과 하수처리, 부족한 위생시설로 인한 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1119,17 +1119,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.3</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.9.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-9-3">Mortality rate attributed to unintentional poisoning</a></span>
+            <span class="indicator-name"><a href="/site_test/3-9-3">비의도적 중독 사망률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1147,9 +1147,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.a</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.a</span>
         </h3>
-        <span class="target-name">Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</span>
+        <span class="target-name">WHO 담배규제기본협약 이행 강화</span>
         
 
           
@@ -1158,17 +1158,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.a.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.a.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-a-1">Age-standardized prevalence of current tobacco use among persons aged 15 years and older</a></span>
+            <span class="indicator-name"><a href="/site_test/3-a-1">15세 이상 인구의 연령표준화 현재 흡연율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1186,9 +1186,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.b</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.b</span>
         </h3>
-        <span class="target-name">Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</span>
+        <span class="target-name">개도국에 적정가격의 필수 의약품 및 백신 제공</span>
         
 
           
@@ -1197,17 +1197,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.b.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-b-1">Proportion of the target population covered by all vaccines included in their national programme</a></span>
+            <span class="indicator-name"><a href="/site_test/3-b-1">국가 정책에 포함된 모든 백신을 접종한 인구의 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1227,17 +1227,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.b.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-b-2">Total net official development assistance to medical research and basic health sectors</a></span>
+            <span class="indicator-name"><a href="/site_test/3-b-2">의학연구 및 기초보건 부문 ODA 순지출액</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1257,17 +1257,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.3</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.b.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-b-3">Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis</a></span>
+            <span class="indicator-name"><a href="/site_test/3-b-3">필수 의약품을 적당한 가격으로 지속적으로 구입할 수 있는 의료시설 비율</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1285,9 +1285,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.c</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.c</span>
         </h3>
-        <span class="target-name">Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States</span>
+        <span class="target-name">개도국 보건인력 훈련 및 보유 확대</span>
         
 
           
@@ -1296,17 +1296,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.c.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.c.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-c-1">Health worker density and distribution</a></span>
+            <span class="indicator-name"><a href="/site_test/3-c-1">보건의료인력 밀도 및 분포</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1324,9 +1324,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.d</span>
+          <span class="target-number"><span class="sr-only">세부목표</span> 3.d</span>
         </h3>
-        <span class="target-name">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</span>
+        <span class="target-name">개도국 보건 위험 감축 및 관리 역량 강화</span>
         
 
           
@@ -1335,17 +1335,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.1</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.d.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-d-1">International Health Regulations (IHR) capacity and health emergency preparedness</a></span>
+            <span class="indicator-name"><a href="/site_test/3-d-1">국제보건규정(IHR)에 의한 수용능력 및 응급대처능력</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1365,17 +1365,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.2</span>
+              <span class="indicator-number"><span class="sr-only">지표</span> 3.d.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/site_test/3-d-2">Percentage of bloodstream infections due to selected antimicrobial-resistant organisms</a></span>
+            <span class="indicator-name"><a href="/site_test/3-d-2">선별된 항생제 내성 유기체에서 기인한 혈류 감염률</a></span>
             <span class="sr-only">Indicator status</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">제공예정</span>
 </span>
 
 
@@ -1416,7 +1416,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site_test/about/cookies-and-privacy/">Cookies</a>
+                <a href="/site_test/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -1454,14 +1454,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220406045521'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220406055838'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220406045521"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220406055838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
