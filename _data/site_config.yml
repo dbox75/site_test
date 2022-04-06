@@ -25,8 +25,8 @@ contrast_type: default
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Korea
+  adjective: Korean
 create_goals:
   layout: goal-by-target-vertical
   previous_next_links: false
@@ -158,8 +158,8 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
+  - ko
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
