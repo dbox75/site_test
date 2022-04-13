@@ -110,7 +110,7 @@ frontpage_goals_grid:
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
-    <div class='img_div'><img src='https://kostat-sdg-kor.github.io/sdg-indicators/public/reporting/kr_data2.png' alt='reporting' /></div>
+
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
