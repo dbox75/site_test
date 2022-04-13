@@ -3442,8 +3442,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     margin-left: 8.33333333%; }
 
   .col-md-offset-0 {
-    margin-left: 0; } }
-@media (min-width: 992px) {
-  .row.no-gutters.add {
+    margin-left: 0; }
+
+  .add {
     margin-right: 80px;
     margin-left: 80px; } }
