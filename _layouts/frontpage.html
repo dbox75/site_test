@@ -9,6 +9,11 @@
 
     <div class="goal-tiles add">
         <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>            
+            
+            
             {% for goal in page.goals %}
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="{{ goal.url }}">
@@ -19,7 +24,28 @@
             {% if goal.number == "4" %}
         </div>
         <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>    
             {% endif %}
+            
+            {% if goal.number == "7" %}
+        </div>
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>    
+            {% endif %}
+
+            {% if goal.number == "11" %}
+        </div>
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>    
+            {% endif %}
+            
+            
             {% endfor %}
                
             {% comment %}
