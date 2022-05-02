@@ -3502,7 +3502,13 @@ button {
   a:after {
     content: "" !important; } }
 footer {
-  height: auto; }
+  height: auto;
+  clear: left;
+  color: white;
+  background-color: #414042;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 /*!
  * @copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2021
