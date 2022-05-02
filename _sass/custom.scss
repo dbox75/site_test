@@ -116,6 +116,12 @@ button { border: 0; padding: 0; background: none; cursor: pointer;}
 }
 footer {
   height: auto;
+  clear: left;
+  color: white;
+  background-color: #414042;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*!
