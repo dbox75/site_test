@@ -11,4 +11,47 @@
 //$backgroundColor: white;
 //$link-color: #337ab7;
 //$footer-text-color: #000000;
+$vanilla: #fff;
+$main-background-color: white;
+
+$color-dark: #0b0c0c !default;
+$color-light: white !default;
+
+$color-dark-highContrast: black !default;
+$color-light-highContrast: white !default;
+$color-highlight-highContrast: #FFDD00 !default;
+$color-success-highContrast: green !default;
+$color-danger-highContrast: red !default;
+$color-medium-highContrast: #767676 !default;
+
 $indicatorContent-horizontalRule-color: transparent;
+$status-color-complete: black !default;
+$status-color-notapplicable: black !default;
+$status-backgroundColor-complete: #5CB85C !default;
+$status-backgroundColor-notapplicable: #D9D9D9 !default;
+
+$status-backgroundColor-inner-notapplicable: #D9D9D9 !default;
+
+$footer-text-color: $color-light !default;
+$footer-text-color-highContrast: $color-light-highContrast !default;
+$footer-link-color: $footer-text-color !default;
+$footer-link-color-highContrast: $footer-text-color-highContrast !default;
+$footer-link-color-highContrast-hover: $color-highlight-highContrast !default;
+$footer-text-backgroundColor: #414042 !default;
+$footer-text-backgroundColor-highContrast: $color-dark-highContrast !default;
+
+$goal-colors: #E52B3D #DDA63A #4C9F38 #C42130 #FF3E24 #28BCE1 #FCC30B #A21942 #FD6925 #DD1367 #FD9C27 #BF8B2E #417D46 #0A96D8 #57BE2F #00689C #1F4A6A !default;
+$goal-banner-backgroundColors: #E52B3D #DDA63A #4C9F38 #C42130 #FF3E24 #28BCE1 #FCC30B #A21942 #FD6925 #DD1367 #FD9C27 #BF8B2E #417D46 #0A96D8 #57BE2F #00689C #1F4A6A !default;
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
