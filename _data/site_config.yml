@@ -92,7 +92,7 @@ frontpage_cards:
     rule_color: ''
   - title: Nam vestibulum
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a 
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
