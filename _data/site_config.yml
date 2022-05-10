@@ -155,7 +155,7 @@ indicator_tabs:
   tab_4: ''
 languages:
   - ko
-  - en
+#  - en
 languages_public: []
 logos: []
 map_layers: []
