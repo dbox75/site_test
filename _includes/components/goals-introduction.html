@@ -1,0 +1,17 @@
+<!-- _includes/components/goals-introduction.html //-->
+
+<br><h1 style="text-align: center;font-family: 'Nanum Gothic';font-size:50px;font-weight:bolder;">
+<!--  {% if site.goals_page.title %}
+    {{ site.goals_page.title | t }}
+  {% else %}
+    {{ page.t.general.goals }}
+  {% endif %}
+-->
+{{ page.t.general.goals_title }}
+</h1><br><br>
+
+{% if site.goals_page.description %}
+<div class="goals-page-description">
+  {{ site.goals_page.description | t | markdownify }}
+</div>
+{% endif %}
