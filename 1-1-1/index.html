@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220510011950">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220510012849">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -694,7 +694,9 @@ data-event-label="Change to Sources tab"
         
         
       </p>
-      <table class="table">
+      <!-- _includes/components/indicator/metadata.html //-->
+
+<table class="table">
   
   
   
@@ -747,7 +749,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Goal </th>
+        <th scope="row" style="white-space: nowrap">Goal </th>
         <td>
           
             <p>Goal 1: End poverty in all its forms everywhere</p>
@@ -763,7 +765,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target </th>
+        <th scope="row" style="white-space: nowrap">Target </th>
         <td>
           
             <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</p>
@@ -779,7 +781,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator </th>
+        <th scope="row" style="white-space: nowrap">Indicator </th>
         <td>
           
             <p>Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</p>
@@ -831,7 +833,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definition and concepts </th>
+        <th scope="row" style="white-space: nowrap">Definition and concepts </th>
         <td>
           
             <h2 id="definition">Definition:</h2>
@@ -922,7 +924,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">데이터 갱신 이력 </th>
+        <th scope="row" style="white-space: nowrap">데이터 갱신 이력 </th>
         <td>
           
             
@@ -953,7 +955,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">메타데이터 갱신 이력 </th>
+        <th scope="row" style="white-space: nowrap">메타데이터 갱신 이력 </th>
         <td>
           
             
@@ -1062,7 +1064,9 @@ data-event-label="Change to Sources tab"
   <div>
     <article>
       <p>이 표는 UN 통계 위원회에서 정의한 SDG 지표에 대한 메타데이터입니다. <a href="https://unstats.un.org/sdgs/metadata/">전체 글로벌 메터데이터</a> 는 UN 통계국에서 제공합니다.</p>
-      <table class="table">
+      <!-- _includes/components/indicator/metadata.html //-->
+
+<table class="table">
   
       
         
@@ -1426,12 +1430,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220510011950'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220510012849'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220510011950"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220510012849"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
