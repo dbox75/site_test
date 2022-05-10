@@ -1,47 +1,42 @@
 <!-- _includes/components/indicator/data-footer.html //-->
 
-<!-- _includes/footer.html //-->
+{% assign sources_list = '' | split: ',' %}
+{% for i in (1..12) %}
+  {% assign src_active = "source_active_" | append: i %}
+  {% if page.indicator[src_active] == true %}
+    {% assign src_org = "source_organisation_" | append: i %}
+    {% assign src_org_translated = page.indicator[src_org] %}
+    {% assign sources_list = sources_list | push: src_org_translated  %}
+  {% endif %}
+{% endfor %}
+{% assign uniqSources = sources_list | uniq | join: ", " %}
 
-<footer role="contentinfo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div id="footerLinks" style="font-size: large;">
-		{{ page.t.general.footer_notice }}
-          <ul>
-		  <!--            <li><a href="https://open-sdg.org">{{ page.t.general.built_using_open_sdg }}</a></li>-->
-            {% if site.footer_menu %}
-              {% for item in site.footer_menu %}
-                {%- assign item_path = item.path | t -%}
-                <li>
-                {% if item_path contains ":" %}
-                  <a href="{{ item_path }}" target="_blank">{{ item.translation_key | t }}</a>
-                {% else %}
-                  {%- assign item_path_first = item_path | slice: 0 %}
-                  {%- if item_path_first == '/' -%}
-                    {%- assign item_path = item_path | slice: 1, item_path.size -%}
-                  {%- endif -%}
-                  <a href="{{ page.baseurl }}{{ item_path }}">{{ item.translation_key | t }}</a>
-                {% endif %}
-                </li>
-              {% endfor %}
-            {% endif %}
-            {% if site.environment == 'staging' and site.site_config_form.enabled %}
-            <li><a href="{{ page.baseurl }}config">Configuration</a></li>
-            {% endif %}
-            {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle != 'none' -%}
-            <li class="language-toggle-menu-footer">
-              {% include components/language-toggle.html location="footer" %}
-            </li>
-            {%- endif -%}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<div id="{{ include.footerId | default: 'selectionChartFooter' }}" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        {% if uniqSources != '' %}
+        <dt>{{ page.t.indicator.source }}:</dt>
+        <dd>{{ uniqSources }}</dd>
+        {% endif %}
 
-{% include scripts.html %}
+        {% if page.indicator.national_geographical_coverage and page.indicator.national_geographical_coverage != '' %}
+        <dt>{{ page.t.indicator.geographical_area }}:</dt>
+        <dd>{{ page.indicator.national_geographical_coverage }}</dd>
+        {% endif %}
 
-</body>
-</html>
+        {% if page.indicator.computation_units and page.indicator.computation_units != '' %}
+        <dt>{{ page.t.indicator.graph_footer_unit }}:</dt>
+        <dd>{{ page.indicator.computation_units }}</dd>
+        {% endif %}
+
+        {% if page.indicator.copyright and page.indicator.copyright != '' %}
+        <dt>{{ page.t.metadata_fields.copyright }}:</dt>
+        <dd>{{ page.indicator.copyright }}</dd>
+        {% endif %}
+
+        {% if page.indicator.data_footnote and page.indicator.data_footnote != '' %}
+        <dt>{{ page.t.indicator.footnote }}:</dt>
+        <dd>{{ page.indicator.data_footnote }}</dd>
+        {% endif %}
+    <dl>
+</div>
