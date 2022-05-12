@@ -117,6 +117,7 @@ goal_image_extension: ''
 goals_page:
   title: 수도권 광역지표 온라인 서비스
   description: goal.description
+  
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
