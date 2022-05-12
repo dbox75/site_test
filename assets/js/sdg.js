@@ -2924,11 +2924,8 @@ var indicatorView = function (model, options) {
       }
     });
 
-    // Execute the hide/show functionality for the sidebar, both on
-    // the currently active tab, and each time a tab is clicked on.
-    $('.data-view .nav-item.active .nav-link').each(toggleSidebar);
-    $('.data-view .nav-link').on('click', toggleSidebar);
-    function toggleSidebar() {
+    // Provide the hide/show functionality for the sidebar.
+    $('.data-view .nav-link').on('click', function(e) {
       var $sidebar = $('.indicator-sidebar'),
           $main = $('.indicator-main'),
           hideSidebar = $(this).data('no-disagg'),
@@ -2947,7 +2944,7 @@ var indicatorView = function (model, options) {
         $sidebar.removeClass('indicator-sidebar-hidden');
         $main.removeClass('indicator-main-full');
       }
-    };
+    });
   });
 
   this._model.onDataComplete.attach(function (sender, args) {
@@ -2968,7 +2965,6 @@ var indicatorView = function (model, options) {
     view_obj.createSelectionsTable(args);
 
     view_obj.updateChartTitle(args.chartTitle);
-    view_obj.updateSeriesAndUnitElements(args.selectedSeries, args.selectedUnit);
   });
 
   this._model.onFieldsComplete.attach(function(sender, args) {
@@ -3263,29 +3259,6 @@ var indicatorView = function (model, options) {
   this.updateChartTitle = function(chartTitle) {
     if (typeof chartTitle !== 'undefined') {
       $('.chart-title').text(chartTitle);
-    }
-  }
-
-  this.updateSeriesAndUnitElements = function(selectedSeries, selectedUnit) {
-    var hasSeries = typeof selectedSeries !== 'undefined',
-        hasUnit = typeof selectedUnit !== 'undefined',
-        hasBoth = hasSeries && hasUnit;
-    if (hasSeries || hasUnit || hasBoth) {
-      $('[data-for-series], [data-for-unit]').each(function() {
-        var elementSeries = $(this).data('for-series'),
-            elementUnit = $(this).data('for-unit'),
-            seriesMatches = elementSeries === selectedSeries,
-            unitMatches = elementUnit === selectedUnit;
-        if ((hasSeries || hasBoth) && !seriesMatches && elementSeries !== '') {
-          $(this).hide();
-        }
-        else if ((hasUnit || hasBoth) && !unitMatches && elementUnit !== '') {
-          $(this).hide();
-        }
-        else {
-          $(this).show();
-        }
-      });
     }
   }
 
@@ -3694,7 +3667,7 @@ var indicatorView = function (model, options) {
           'tabindex': 0
         });
       var blob = new Blob([tableCsv], {
-        type: 'text/csv'
+        type: 'text/csv;charset=utf8'
       });
       if (window.navigator && window.navigator.msSaveBlob) {
         // Special behavior for IE.
@@ -3731,7 +3704,7 @@ var indicatorView = function (model, options) {
     if (typeof this._chartDownloadButton !== 'undefined') {
       var tableCsv = this.toCsv(table);
       var blob = new Blob([tableCsv], {
-        type: 'text/csv'
+        type: 'text/csv;charset=utf8'
       });
       var fileName = this._chartDownloadButton.attr('download');
       if (window.navigator && window.navigator.msSaveBlob) {
