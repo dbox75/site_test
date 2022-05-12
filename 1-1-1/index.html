@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220512021656">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220512022807">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -586,7 +586,7 @@ function copyUrl(){
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;A&quot;,&quot;B&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -874,35 +874,10 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">데이터 갱신 이력 </th>
-        <td>
           
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/dbox75/data_test/commit/ffcadbcac2881dfae193206d95f260bf91624366" target="_blank">
-                2022-02-18: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
-      
-      
-      
-  
+          
       
         
       
@@ -1431,12 +1406,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220512021656'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220512022807'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220512021656"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220512022807"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
