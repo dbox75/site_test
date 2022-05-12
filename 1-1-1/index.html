@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220512005720">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220512014402">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -595,29 +595,38 @@ function copyUrl(){
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
+
+  
+  
+  
+  
+  
+  
+  
+  
   <li role="presentation" class="nav-item active">
-  <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
+    <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to National Metadata tab"
+data-event-label="Change to indicator.national_metadata tab"
 >국내 메타데이터</a>
-</li>
+  </li>
 
-<li role="presentation" class="nav-item">
-  <a class="nav-link" data-toggle="tab" id="tab-global" href="#global" aria-controls="global" role="tab" data-on="click"
+  
+  
+  
+  
+  
+  
+  
+  
+  <li role="presentation" class="nav-item ">
+    <a class="nav-link" data-toggle="tab" id="tab-global" href="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Global Metadata tab"
+data-event-label="Change to indicator.global_metadata tab"
 >글로벌 메타데이터</a>
-</li>
-
-<li role="presentation" class="nav-item">
-  <a class="nav-link" data-toggle="tab" id="tab-sources" href="#sources" aria-controls="sources" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to Sources tab"
-></a>
-</li>
+  </li>
 
 
   
@@ -625,16 +634,20 @@ data-event-label="Change to Sources tab"
 
 <div class="tab-content">
   
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div role="tabpanel" class="tab-pane active" id="national">
-  <!-- National Metadata -->
-  <div >
-    <article>
-      <p>
+      <article>
         
-        
-        
-      </p>
-      <!-- _includes/components/indicator/metadata.html //-->
+
+        <!-- _includes/components/indicator/metadata.html //-->
 
 <table class="table">
   
@@ -904,7 +917,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dbox75/data_test/commit/d132e79f4846a5941cd7fae0b1d8c997654463ae" target="_blank">
+              <a href="https://github.com/dbox75/data_test/commit/1fbad667f503e232ab3ebac60dfaa4e30dd2dbea" target="_blank">
                 2022-05-12: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
@@ -996,15 +1009,22 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-    </article>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="global">
-  <!-- Global Metadata -->
-  <div>
-    <article>
-      <p>이 표는 UN 통계 위원회에서 정의한 SDG 지표에 대한 메타데이터입니다. <a href="https://unstats.un.org/sdgs/metadata/">전체 글로벌 메터데이터</a> 는 UN 통계국에서 제공합니다.</p>
-      <!-- _includes/components/indicator/metadata.html //-->
+      </article>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane " id="global">
+      <article>
+        <p>이 표는 UN 통계 위원회에서 정의한 SDG 지표에 대한 메타데이터입니다. <a href="https://unstats.un.org/sdgs/metadata/">전체 글로벌 메터데이터</a> 는 UN 통계국에서 제공합니다.</p>
+
+        <!-- _includes/components/indicator/metadata.html //-->
 
 <table class="table">
   
@@ -1255,18 +1275,9 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-    </article>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="sources">
-  <!-- Count the non-empty sources (up to 5) -->
-
-
-
-
-
-</div>
-
+      </article>
+    </div>
+    
   
   
 </div>
@@ -1370,12 +1381,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220512005720'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220512014402'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220512005720"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220512014402"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
