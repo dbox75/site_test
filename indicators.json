@@ -1318,28 +1318,4 @@
           "status": "notstarted"
         }]
     }
-  },
-  {
-    "goal": {
-      "id": "12",
-      "title": "지속가능한 소비와 생산 양식 보장",
-      "indicators": [
-        
-        {
-          "id": "12-1-1",
-          "title": "지속가능한 소비 및 생산을 지원하는 정책수단을 개발, 채택, 이행하고 있는 국가 수",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/12-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-1",
-          "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/12-2-1",
-          "status": "notstarted"
-        }]
-    }
   }]
