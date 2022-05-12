@@ -241,6 +241,7 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
+      
 repository_url_data: 'https://github.com/dbox75/data_test'
 repository_url_site: 'https://github.com/dbox75/site_test'
 search_index_boost: []
