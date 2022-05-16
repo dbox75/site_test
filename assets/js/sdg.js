@@ -884,7 +884,7 @@ event.prototype = {
 var accessibilitySwitcher = function() {
 
   var contrastIdentifiers = ['default', 'high'],
-      contrastType = "default" || "default",
+      contrastType = "false" || "default",
       singleToggle = (contrastType === 'long' || contrastType === 'single');
 
   if (contrastType === 'long') {
