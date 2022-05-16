@@ -21,7 +21,9 @@ breadcrumbs:
       label: general.home
     - path: /news
       label: menu.updates
-contrast_type: default
+      
+#contrast_type: default      
+contrast_type: false
 cookie_consent_form:
   enabled: false
 country:
