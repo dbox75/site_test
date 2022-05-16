@@ -1,5 +1,5 @@
 ﻿accessible_charts: true
-accessible_tabs: false
+accessible_tabs: true
 analytics:
   ua: ''
   gtag: ''
