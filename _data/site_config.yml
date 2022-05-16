@@ -1,5 +1,5 @@
 ﻿accessible_charts: true
-accessible_tabs: true
+accessible_tabs: false
 analytics:
   ua: ''
   gtag: ''
@@ -22,8 +22,7 @@ breadcrumbs:
     - path: /news
       label: menu.updates
       
-#contrast_type: default      
-contrast_type: false
+contrast_type: default      
 cookie_consent_form:
   enabled: false
 country:
