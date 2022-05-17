@@ -7,15 +7,23 @@
         
         {
           "id": "1-1-1",
-          "title": "국제 빈곤선 미만에서 살고 있는 인구의 성·연령·고용상태 및 지역(도시/농촌)별 비율",
+          "title": "인구성장률",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-1-1",
           "status": "complete"
         },
         {
+          "id": "1-1-2",
+          "title": "인구성장률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/1-1-2",
+          "status": "complete"
+        },
+        {
           "id": "1-2-1",
-          "title": "국가 빈곤선 미만에서 살고 있는 인구의 성 및 연령별 비율",
+          "title": "고속도로 연장",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-2-1",
@@ -23,15 +31,23 @@
         },
         {
           "id": "1-2-2",
-          "title": "국가별 정의에 따른 모든 차원의 빈곤 속에 살고 있는 모든 연령의 남성, 여성 및 아동의 비율",
+          "title": "인터넷 이용률",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-2-2",
           "status": "notstarted"
         },
         {
+          "id": "1-2-3",
+          "title": "인구성장률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/1-2-3",
+          "status": "complete"
+        },
+        {
           "id": "1-3-1",
-          "title": "사회보호제도 보장인구(아동, 실업자, 노인, 장애인, 임산부/신생아, 산업재해자, 빈곤층과 취약계층)의 성별 비율",
+          "title": "global_indicators.1-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-3-1",
@@ -39,7 +55,7 @@
         },
         {
           "id": "1-4-1",
-          "title": "기초 서비스에 접근 가능한 가구에 살고 있는 인구 비율",
+          "title": "global_indicators.1-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-4-1",
@@ -47,7 +63,7 @@
         },
         {
           "id": "1-4-2",
-          "title": "(a) 법적으로 인정된 문서를 가지며 (b) 토지에 대한 권리가 보장되었다고 인식하고 있는, 안정된 토지권을 갖는 성인 인구의 성 및 보유형태별 비율",
+          "title": "global_indicators.1-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-4-2",
@@ -55,7 +71,7 @@
         },
         {
           "id": "1-5-1",
-          "title": "인구 1십만 명당 재난으로 인한 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "global_indicators.1-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-5-1",
@@ -63,50 +79,10 @@
         },
         {
           "id": "1-5-2",
-          "title": "글로벌 GDP 대비 재난으로 인한 직접적 경제손실 비율",
+          "title": "global_indicators.1-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/1-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-3",
-          "title": "「재난위험감축을 위한 센다이프레임워크(2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-5-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-4",
-          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-5-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-1",
-          "title": "수원국 GNI 대비 빈곤감소 ODA 총액 비율",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-2",
-          "title": "정부 총지출 중 필수 서비스(교육, 의료 및 사회적 보호)에 소요되는 지출 비율",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-b-1",
-          "title": "빈곤친화적 공공사회지출",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-b-1",
           "status": "notstarted"
         }]
     }
@@ -119,7 +95,7 @@
         
         {
           "id": "2-1-1",
-          "title": "영양부족인구 비율",
+          "title": "부정부패지수",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-1-1",
@@ -127,7 +103,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "식량불안경험척도 기준으로 중간 또는 심각한 수준의 식량불안 경험인구 비율",
+          "title": "기업의 사업수행 용이성",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-1-2",
@@ -135,7 +111,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "5세 미만 발육부진 아동 비율(연령 대비 신장이 WHO 아동성장표준 중위신장으로부터 –2표준편차에 미달하는 경우)",
+          "title": "인구 백만 명당 특허 출원 건수",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-1",
@@ -143,7 +119,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "5세 미만 영양불량 아동 비율(신장 대비 체중이 WHO 아동성장표준 중위값으로부터 +2표준편차를 초과하거나 –2표준편차에 미달하는 경우)",
+          "title": "GDP 중 R&D 지출 비중",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-2",
@@ -151,7 +127,7 @@
         },
         {
           "id": "2-2-3",
-          "title": "임신여부별 15-49세 여성 빈혈 유병률",
+          "title": "지식집약 서비스 활동 근로자 수",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-3",
@@ -159,7 +135,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "농림축산업 생산규모별 단위노동 생산량",
+          "title": "global_indicators.2-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-3-1",
@@ -167,7 +143,7 @@
         },
         {
           "id": "2-3-2",
-          "title": "소규모 식량생산자의 성 및 원주민여부별 평균소득",
+          "title": "global_indicators.2-3-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-3-2",
@@ -175,7 +151,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "생산적이고 지속가능한 농지면적 비율",
+          "title": "global_indicators.2-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-4-1",
@@ -183,7 +159,7 @@
         },
         {
           "id": "2-5-1",
-          "title": "중장기 보존시설에 확보되어 있는 식량·농업 동식물 유전자원의 수",
+          "title": "global_indicators.2-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-5-1",
@@ -191,7 +167,7 @@
         },
         {
           "id": "2-5-2",
-          "title": "멸종위험 상태로 분류된 로컬 품종의 비율",
+          "title": "global_indicators.2-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-5-2",
@@ -199,7 +175,7 @@
         },
         {
           "id": "2-a-1",
-          "title": "농업지향지수",
+          "title": "global_indicators.2-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-a-1",
@@ -207,7 +183,7 @@
         },
         {
           "id": "2-a-2",
-          "title": "농업부문 공적지원금(ODA와 기타 공적지원금)",
+          "title": "global_indicators.2-a-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-a-2",
@@ -215,7 +191,7 @@
         },
         {
           "id": "2-b-1",
-          "title": "농업수출보조금",
+          "title": "global_indicators.2-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-b-1",
@@ -223,7 +199,7 @@
         },
         {
           "id": "2-c-1",
-          "title": "식품가격이상지표",
+          "title": "global_indicators.2-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/2-c-1",
@@ -239,7 +215,7 @@
         
         {
           "id": "3-1-1",
-          "title": "모성사망비",
+          "title": "GRDP",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-1-1",
@@ -247,7 +223,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "숙련된 의료인력이 참여한 출산 비율",
+          "title": "GRDP 평균증가율",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-1-2",
@@ -255,7 +231,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "5세 미만 사망률",
+          "title": "지역 고용률",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-2-1",
@@ -263,7 +239,7 @@
         },
         {
           "id": "3-2-2",
-          "title": "신생아 사망률",
+          "title": "1인당 가처분 소득",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-2-2",
@@ -271,7 +247,7 @@
         },
         {
           "id": "3-3-1",
-          "title": "비감염인구 1천 명당 인체면역결핍바이러스(HIV) 신규 감염자의 성·연령 및 주요 인구특성별 수",
+          "title": "global_indicators.3-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-3-1",
@@ -279,7 +255,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "인구 1십만 명당 결핵 발생건수",
+          "title": "global_indicators.3-3-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-3-2",
@@ -287,7 +263,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "인구 1천 명당 말라리아 발생건수",
+          "title": "global_indicators.3-3-3-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-3-3",
@@ -295,7 +271,7 @@
         },
         {
           "id": "3-3-4",
-          "title": "인구 1십만 명당 B형간염 발생건수",
+          "title": "global_indicators.3-3-4-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-3-4",
@@ -303,7 +279,7 @@
         },
         {
           "id": "3-3-5",
-          "title": "소외열대질환 치료가 필요한 인구수",
+          "title": "global_indicators.3-3-5-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-3-5",
@@ -311,7 +287,7 @@
         },
         {
           "id": "3-4-1",
-          "title": "심혈관계질환, 암, 당뇨 또는 만성호흡기질환 사망률",
+          "title": "global_indicators.3-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-4-1",
@@ -319,7 +295,7 @@
         },
         {
           "id": "3-4-2",
-          "title": "자살 사망률",
+          "title": "global_indicators.3-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-4-2",
@@ -327,7 +303,7 @@
         },
         {
           "id": "3-5-1",
-          "title": "약물사용장애 치료개입(약물치료 개입, 심리사회적 개입, 재활 개입) 보장률",
+          "title": "global_indicators.3-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-5-1",
@@ -335,7 +311,7 @@
         },
         {
           "id": "3-5-2",
-          "title": "연간 15세 이상 1인당 순 알코올 소비량",
+          "title": "global_indicators.3-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-5-2",
@@ -343,7 +319,7 @@
         },
         {
           "id": "3-6-1",
-          "title": "도로교통사고 사망률",
+          "title": "global_indicators.3-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-6-1",
@@ -351,7 +327,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "현대적 피임법 사용으로 가족계획 욕구가 충족되는 가임기(15-49세) 여성의 비율",
+          "title": "global_indicators.3-7-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-7-1",
@@ -359,7 +335,7 @@
         },
         {
           "id": "3-7-2",
-          "title": "여성 청소년(10-14세, 15-19세) 출산율",
+          "title": "global_indicators.3-7-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-7-2",
@@ -367,7 +343,7 @@
         },
         {
           "id": "3-8-1",
-          "title": "필수보건서비스 보장",
+          "title": "global_indicators.3-8-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-8-1",
@@ -375,7 +351,7 @@
         },
         {
           "id": "3-8-2",
-          "title": "가구 총지출 및 소득 대비 의료비과부담 인구 비율",
+          "title": "global_indicators.3-8-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-8-2",
@@ -383,7 +359,7 @@
         },
         {
           "id": "3-9-1",
-          "title": "실내공기오염 및 대기오염으로 인한 사망률",
+          "title": "global_indicators.3-9-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-9-1",
@@ -391,7 +367,7 @@
         },
         {
           "id": "3-9-2",
-          "title": "안전하지 않은 물과 하수처리, 부족한 위생시설로 인한 사망률",
+          "title": "global_indicators.3-9-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-9-2",
@@ -399,7 +375,7 @@
         },
         {
           "id": "3-9-3",
-          "title": "비의도적 중독 사망률",
+          "title": "global_indicators.3-9-3-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-9-3",
@@ -407,7 +383,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "15세 이상 인구의 연령표준화 현재 흡연율",
+          "title": "global_indicators.3-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-a-1",
@@ -415,7 +391,7 @@
         },
         {
           "id": "3-b-1",
-          "title": "국가 정책에 포함된 모든 백신을 접종한 인구의 비율",
+          "title": "global_indicators.3-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-b-1",
@@ -423,7 +399,7 @@
         },
         {
           "id": "3-b-2",
-          "title": "의학연구 및 기초보건 부문 ODA 순지출액",
+          "title": "global_indicators.3-b-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-b-2",
@@ -431,7 +407,7 @@
         },
         {
           "id": "3-b-3",
-          "title": "필수 의약품을 적당한 가격으로 지속적으로 구입할 수 있는 의료시설 비율",
+          "title": "global_indicators.3-b-3-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-b-3",
@@ -439,7 +415,7 @@
         },
         {
           "id": "3-c-1",
-          "title": "보건의료인력 밀도 및 분포",
+          "title": "global_indicators.3-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-c-1",
@@ -447,7 +423,7 @@
         },
         {
           "id": "3-d-1",
-          "title": "국제보건규정(IHR)에 의한 수용능력 및 응급대처능력",
+          "title": "global_indicators.3-d-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-d-1",
@@ -455,7 +431,7 @@
         },
         {
           "id": "3-d-2",
-          "title": "선별된 항생제 내성 유기체에서 기인한 혈류 감염률",
+          "title": "global_indicators.3-d-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/3-d-2",
@@ -471,7 +447,7 @@
         
         {
           "id": "4-1-1",
-          "title": "(a) 초등학교 2학년 혹은 3학년 시점, (b) 초등학교 말 (c) 중학교 말에 (i) 읽기와 (ii) 수학분야에서 최소숙달수준에 도달한 아동 및 청소년의 성별 비율",
+          "title": "인구순유입률",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-1-1",
@@ -479,7 +455,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "초중고 교육 완수율",
+          "title": "유학생 수",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-1-2",
@@ -487,7 +463,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "건강, 학습 및 심리사회적 웰빙 측면에서 정상 발달과정에 있는 24-59개월 아동의 성별 비율",
+          "title": "주거비 부담률",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-2-1",
@@ -495,7 +471,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 성별 비율",
+          "title": "미세먼지(PM 2.5)에 노출량",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-2-2",
@@ -503,7 +479,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "지난 12개월 동안 형식 및 비형식 교육· 훈련에 참여한 청소년 및 성인의 성별 비율",
+          "title": "global_indicators.4-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-3-1",
@@ -511,7 +487,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "기술유형별 정보통신기술(ICT) 능력을 보유한 청소년/성인의 비율",
+          "title": "global_indicators.4-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-4-1",
@@ -519,7 +495,7 @@
         },
         {
           "id": "4-5-1",
-          "title": "세분화할 수 있는 이 목록의 모든 지표 대상 형평성 지수(성, 도농, 소득분위, 데이터를 이용할 수 있는 경우 장애상태, 토착민, 분쟁영향 여부 등)",
+          "title": "global_indicators.4-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-5-1",
@@ -527,7 +503,7 @@
         },
         {
           "id": "4-6-1",
-          "title": "특정 연령 집단에서 기능적 (a) 문해력과 (b) 수리력이 최소 일정 수준에 도달한 인구의 성별 비율",
+          "title": "global_indicators.4-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-6-1",
@@ -535,7 +511,7 @@
         },
         {
           "id": "4-7-1",
-          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육, (d) 학생평가 영역에서 주류화 된 정도(12.8.1/13.3.1과 동일)",
+          "title": "global_indicators.4-7-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-7-1",
@@ -543,7 +519,7 @@
         },
         {
           "id": "4-a-1",
-          "title": "기본 서비스 제공하는 학교 비율(서비스 유형별)",
+          "title": "global_indicators.4-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-a-1",
@@ -551,7 +527,7 @@
         },
         {
           "id": "4-b-1",
-          "title": "장학금의 공적개발원조(ODA) 금액의 연구부문 및 연구유형별 규모",
+          "title": "global_indicators.4-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-b-1",
@@ -559,7 +535,7 @@
         },
         {
           "id": "4-c-1",
-          "title": "교육수준별 최소 자격을 갖춘 교사 비율",
+          "title": "global_indicators.4-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/4-c-1",
@@ -570,12 +546,12 @@
   {
     "goal": {
       "id": "5",
-      "title": "발전 지표 - 기초 영역",
+      "title": "발전 지표 - 기초 역량과 여건 영역",
       "indicators": [
         
         {
           "id": "5-1-1",
-          "title": "성에 근거한 비차별과 평등을 증진, 집행 그리고 추적할 수 있는 법적 체계 존재여부",
+          "title": "재정자립도",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-1-1",
@@ -583,7 +559,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "파트너가 있(었)던 15세 이상의 여성과 여아 중 지난 12개월 동안 (현재 혹은 과거의) 친밀한 파트너로 부터 신체적, 성적, 정서적인 폭력을 당한 경험이 있는 인구의 연령별 및 폭력형태별 비율",
+          "title": "주거환경만족도",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-2-1",
@@ -591,7 +567,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "15세 이상의 여성과 여아 중에서 지난 12개월 동안 친밀한 파트너 이외에 다른 사람들로부터 성적 폭력을 당한 경험이 있는 인구의 연령별 및 사건발생장소별 비율",
+          "title": "대중교통접근성",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-2-2",
@@ -599,7 +575,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "20~24세 여성 중 15세 이전과 18세 이전에 결혼 또는 동거를 했던 비율",
+          "title": "고등교육이수율",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-3-1",
@@ -607,7 +583,7 @@
         },
         {
           "id": "5-3-2",
-          "title": "15~49세 여아와 여성 중 여성성기절제(FGM/C)를 한 인구의 연령별 비율",
+          "title": "교원당 학생수",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-3-2",
@@ -615,7 +591,7 @@
         },
         {
           "id": "5-4-1",
-          "title": "무보수 가사노동 및 돌봄노동에 소요된 시간의 성별, 연령 및 지역별 비율",
+          "title": "합계출산율",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-4-1",
@@ -623,7 +599,7 @@
         },
         {
           "id": "5-5-1",
-          "title": "(a) 국회의 여성 의석 비율 (b) 지방정부의 여성 의석 비율",
+          "title": "global_indicators.5-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-5-1",
@@ -631,7 +607,7 @@
         },
         {
           "id": "5-5-2",
-          "title": "여성 관리자 비율",
+          "title": "global_indicators.5-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-5-2",
@@ -639,7 +615,7 @@
         },
         {
           "id": "5-6-1",
-          "title": "성관계, 피임제 사용 및 생식보건에 대한 충분한 정보에 따라 스스로 의사결정을 하는 15-49세의 여성비율",
+          "title": "global_indicators.5-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-6-1",
@@ -647,7 +623,7 @@
         },
         {
           "id": "5-6-2",
-          "title": "성 및 생식 보건에 대한 정보와 교육에 대해 15세 이상의 여성 및 남성의 완전하고 평등한 접근성을 보장하는 법과 제도가 마련된 국가의 수",
+          "title": "global_indicators.5-6-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-6-2",
@@ -655,7 +631,7 @@
         },
         {
           "id": "5-a-1",
-          "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율 (성별) (b)농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율 (보유기간별)",
+          "title": "global_indicators.5-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-a-1",
@@ -663,7 +639,7 @@
         },
         {
           "id": "5-a-2",
-          "title": "토지소유나 통제에 대한 여성의 평등한 권리를 보장하는 법률적 기반(관습법을 포함)을 갖춘 국가의 비율",
+          "title": "global_indicators.5-a-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-a-2",
@@ -671,7 +647,7 @@
         },
         {
           "id": "5-b-1",
-          "title": "휴대폰을 소유한 개인의 비율 (성별)",
+          "title": "global_indicators.5-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-b-1",
@@ -679,7 +655,7 @@
         },
         {
           "id": "5-c-1",
-          "title": "성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율",
+          "title": "global_indicators.5-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/5-c-1",
@@ -695,7 +671,7 @@
         
         {
           "id": "6-1-1",
-          "title": "안전하게 관리되는 식수서비스를 이용하는 인구 비율",
+          "title": "GRDP 증가율",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-1-1",
@@ -703,7 +679,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "비누와 물이 있는 손씻기 시설을 포함하여, 안전하게 관리되는 위생서비스시설을 이용하는 인구 비율",
+          "title": "고용률",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-2-1",
@@ -711,7 +687,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "안전하게 처리되는 가정용 및 산업용 하·폐수 비율",
+          "title": "월평균 임금",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-3-1",
@@ -719,7 +695,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "주변 수질이 양호한 수계(bodies of water)*의 비율",
+          "title": "1인당 가처분소득",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-3-2",
@@ -727,7 +703,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "시간에 따른 물 이용 효율성 변화",
+          "title": "global_indicators.6-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-4-1",
@@ -735,7 +711,7 @@
         },
         {
           "id": "6-4-2",
-          "title": "물 스트레스 수준",
+          "title": "global_indicators.6-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-4-2",
@@ -743,7 +719,7 @@
         },
         {
           "id": "6-5-1",
-          "title": "통합 수자원관리 이행 정도",
+          "title": "global_indicators.6-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-5-1",
@@ -751,7 +727,7 @@
         },
         {
           "id": "6-5-2",
-          "title": "물 협력을 위한 운영협정을 맺고 있는 접경 지역 비율",
+          "title": "global_indicators.6-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-5-2",
@@ -759,7 +735,7 @@
         },
         {
           "id": "6-6-1",
-          "title": "시간 경과에 따른 물 관련 생태계 규모의 변화",
+          "title": "global_indicators.6-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-6-1",
@@ -767,7 +743,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "정부의 지출계획에 포함되어 있는 물과 위생분야 관련 ODA 금액",
+          "title": "global_indicators.6-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-a-1",
@@ -775,7 +751,7 @@
         },
         {
           "id": "6-b-1",
-          "title": "물 및 위생관리에 대한 지방 커뮤니티의 참여를 위한 확립된 행정적 정책과 절차를 갖추고 있는 지방행정단위의 비율",
+          "title": "global_indicators.6-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-b-1",
@@ -786,12 +762,12 @@
   {
     "goal": {
       "id": "7",
-      "title": "발전 지표 - 지속 영역",
+      "title": "발전 지표 - 지속 가능성 영역",
       "indicators": [
         
         {
           "id": "7-1-1",
-          "title": "전기 접근성을 갖고 있는 인구비율",
+          "title": "인구 천 명당 도시공원조성면적",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-1-1",
@@ -799,7 +775,7 @@
         },
         {
           "id": "7-1-2",
-          "title": "청정연료 및 기술에 주로 의존하는 인구비율",
+          "title": "미세먼지 대기오염도(PM 2.5 농도)",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-1-2",
@@ -807,7 +783,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "최종 에너지 소비 중 재생에너지가 차지하는 비율",
+          "title": "global_indicators.7-2-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-2-1",
@@ -815,7 +791,7 @@
         },
         {
           "id": "7-3-1",
-          "title": "1차 에너지와 GDP의 측면에서 측정한 에너지 집약도",
+          "title": "global_indicators.7-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-3-1",
@@ -823,7 +799,7 @@
         },
         {
           "id": "7-a-1",
-          "title": "개도국의 하이브리드 시스템을 포함한 재생 에너지 및 청정에너지 연구 개발과 재생에너지생산을 지원하는 국제 자금 흐름",
+          "title": "global_indicators.7-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-a-1",
@@ -831,7 +807,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "개도국의 재생에너지 설비 용량(인당 와트)",
+          "title": "global_indicators.7-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/7-b-1",
@@ -847,7 +823,7 @@
         
         {
           "id": "8-1-1",
-          "title": "1인당 실질 GDP의 연 성장률",
+          "title": "삶의 만족도",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-1-1",
@@ -855,7 +831,7 @@
         },
         {
           "id": "8-2-1",
-          "title": "취업자 1인당 실질 GDP의 연 성장률",
+          "title": "global_indicators.8-2-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-2-1",
@@ -863,7 +839,7 @@
         },
         {
           "id": "8-3-1",
-          "title": "전체 고용 부문의 비공식 고용률 (부문별, 성별)",
+          "title": "global_indicators.8-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-3-1",
@@ -871,7 +847,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
+          "title": "global_indicators.8-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-4-1",
@@ -879,7 +855,7 @@
         },
         {
           "id": "8-4-2",
-          "title": "총 및 1인당 물질소비량, GDP 대비 물질소비량",
+          "title": "global_indicators.8-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-4-2",
@@ -887,7 +863,7 @@
         },
         {
           "id": "8-5-1",
-          "title": "근로자의 평균 시간당 임금 (성, 연령, 직업 및 장애별)",
+          "title": "global_indicators.8-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-5-1",
@@ -895,7 +871,7 @@
         },
         {
           "id": "8-5-2",
-          "title": "실업률 (성, 연령, 장애인별)",
+          "title": "global_indicators.8-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-5-2",
@@ -903,7 +879,7 @@
         },
         {
           "id": "8-6-1",
-          "title": "교육, 취업, 혹은 훈련 상태에 있지 않은 청소년(15-24세)의 비율",
+          "title": "global_indicators.8-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-6-1",
@@ -911,7 +887,7 @@
         },
         {
           "id": "8-7-1",
-          "title": "5-17세 아동 중 아동노동인구와 비율(성 및 연령별)",
+          "title": "global_indicators.8-7-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-7-1",
@@ -919,7 +895,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "노동자 십만 명당 치명적 및 비치명적 산업 재해 건수(성별 및 이주 상태별)",
+          "title": "global_indicators.8-8-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-8-1",
@@ -927,7 +903,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준 (성 및 이주 상태별)",
+          "title": "global_indicators.8-8-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-8-2",
@@ -935,7 +911,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "전체 GDP 및 성장률에 관광분야가 직접적으로 기여하는 GDP 비율",
+          "title": "global_indicators.8-9-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-9-1",
@@ -943,7 +919,7 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) 성인 십만 명당 상업은행 지점들과 (b) 성인 십만 명당 ATM의 개수",
+          "title": "global_indicators.8-10-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-10-1",
@@ -951,7 +927,7 @@
         },
         {
           "id": "8-10-2",
-          "title": "은행이나 기타 금융기관, 혹은 모바일 금융서비스 제공자의 계좌를 보유하고 있는 (15세 이상) 성인인구 비율",
+          "title": "global_indicators.8-10-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-10-2",
@@ -959,7 +935,7 @@
         },
         {
           "id": "8-a-1",
-          "title": "무역원조(Aid for Trade) 약정 및 지불",
+          "title": "global_indicators.8-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-a-1",
@@ -967,7 +943,7 @@
         },
         {
           "id": "8-b-1",
-          "title": "청년층 고용에 대한 국가 계획 개발 및 운영여부 – 별도 계획 혹은 국가 계획의 일부 인지 여부",
+          "title": "global_indicators.8-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/8-b-1",
@@ -983,7 +959,7 @@
         
         {
           "id": "9-1-1",
-          "title": "사계절 도로(all-season road) 2km 반경 내 거주하는 농촌인구비율",
+          "title": "건강관련 삶의 질(EQ-5D)",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-1-1",
@@ -991,7 +967,7 @@
         },
         {
           "id": "9-1-2",
-          "title": "승객 및 운송량 (교통수단별)",
+          "title": "인구 십만 명당 자살률",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-1-2",
@@ -999,7 +975,7 @@
         },
         {
           "id": "9-2-1",
-          "title": "GDP 대비 및 1인 당 제조업 부가가치 비율",
+          "title": "학교생활 만족도",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-2-1",
@@ -1007,7 +983,7 @@
         },
         {
           "id": "9-2-2",
-          "title": "총 고용 대비 제조업 고용 비율",
+          "title": "학급당 학생 수",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-2-2",
@@ -1015,7 +991,7 @@
         },
         {
           "id": "9-3-1",
-          "title": "총 산업부가가치 중 소규모(small-scale) 산업 비율",
+          "title": "월평균 임금",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-3-1",
@@ -1023,7 +999,7 @@
         },
         {
           "id": "9-3-2",
-          "title": "부채 혹은 신용한도가 있는 소규모 산업 비율",
+          "title": "근로여건만족도",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-3-2",
@@ -1031,7 +1007,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "부가가치 단위 당 이산화탄소 배출",
+          "title": "1인당 개인소득",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-4-1",
@@ -1039,7 +1015,7 @@
         },
         {
           "id": "9-5-1",
-          "title": "GDP 대비 연구개발비율",
+          "title": "여가활용 만족도",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-5-1",
@@ -1047,7 +1023,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "거주자(inhabitants) 백만 명당 (전일제) 연구자 수",
+          "title": "일ㆍ생활균형 지수",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-5-2",
@@ -1055,7 +1031,7 @@
         },
         {
           "id": "9-a-1",
-          "title": "인프라분야에 대한 국제사회의 총공적지원(ODA+기타공적자금)",
+          "title": "global_indicators.9-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-a-1",
@@ -1063,7 +1039,7 @@
         },
         {
           "id": "9-b-1",
-          "title": "총 부가가치 대비 중고급기술산업 부가가치 비율",
+          "title": "global_indicators.9-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-b-1",
@@ -1071,7 +1047,7 @@
         },
         {
           "id": "9-c-1",
-          "title": "모바일네트워크 사용 인구 비율(기술별)",
+          "title": "global_indicators.9-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-c-1",
@@ -1087,7 +1063,7 @@
         
         {
           "id": "10-1-1",
-          "title": "총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률",
+          "title": "공공보육시설 비율",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-1-1",
@@ -1095,7 +1071,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "중위소득 50% 미만 인구의 성, 연령 및 장애별 비율",
+          "title": "기초생활보장 수급자수",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-2-1",
@@ -1103,7 +1079,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율",
+          "title": "global_indicators.10-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-3-1",
@@ -1111,7 +1087,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "GDP 대비 노동소득 비율",
+          "title": "global_indicators.10-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-4-1",
@@ -1119,7 +1095,7 @@
         },
         {
           "id": "10-4-2",
-          "title": "재정 정책의 재분배 효과",
+          "title": "global_indicators.10-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-4-2",
@@ -1127,7 +1103,7 @@
         },
         {
           "id": "10-5-1",
-          "title": "금융건전성지표",
+          "title": "global_indicators.10-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-5-1",
@@ -1135,7 +1111,7 @@
         },
         {
           "id": "10-6-1",
-          "title": "국제기구에서 개발도상국의 회원 및 투표권 비율",
+          "title": "global_indicators.10-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-6-1",
@@ -1143,7 +1119,7 @@
         },
         {
           "id": "10-7-1",
-          "title": "이주국가에서 얻은 월소득 대비 이주노동자가 부담하는 고용비용의 비율",
+          "title": "global_indicators.10-7-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-7-1",
@@ -1151,7 +1127,7 @@
         },
         {
           "id": "10-7-2",
-          "title": "질서 있고 안전하고 정규적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수",
+          "title": "global_indicators.10-7-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-7-2",
@@ -1159,7 +1135,7 @@
         },
         {
           "id": "10-7-3",
-          "title": "국제이주 과정에서 사망하거나 실종된 사람의 수",
+          "title": "global_indicators.10-7-3-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-7-3",
@@ -1167,7 +1143,7 @@
         },
         {
           "id": "10-7-4",
-          "title": "출신국별 난민 인구 비율",
+          "title": "global_indicators.10-7-4-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-7-4",
@@ -1175,7 +1151,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "최빈개도국과 개발도상국으로부터의 수입에 적용되는 무관세 비율",
+          "title": "global_indicators.10-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-a-1",
@@ -1183,7 +1159,7 @@
         },
         {
           "id": "10-b-1",
-          "title": "공여국과 수원국별 및 유형별 개발재원 총액(ODA, 해외직접투자 등)",
+          "title": "global_indicators.10-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-b-1",
@@ -1191,7 +1167,7 @@
         },
         {
           "id": "10-c-1",
-          "title": "송금총액 대비 송금비용 비율",
+          "title": "global_indicators.10-c-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-c-1",
@@ -1207,7 +1183,7 @@
         
         {
           "id": "11-1-1",
-          "title": "빈민가, 임시거처 또는 최소한의 요건을 갖추지 못한 주거시설에 거주하는 도시인구비율",
+          "title": "1인당 생활폐기물 배출",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-1-1",
@@ -1215,7 +1191,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "대중교통에 편리하게 접근할 수 있는 인구비율(연령, 성 및 장애별)",
+          "title": "인구 천 명당 범죄발생건수",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-2-1",
@@ -1223,7 +1199,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "인구성장률 대비 토지소모 비율",
+          "title": "global_indicators.11-3-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-3-1",
@@ -1231,7 +1207,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "정기적이고 민주적으로 운영되는 도시계획 및 관리에 시민사회가 직접 참여하는 구조를 가지고 있는 도시의 비율",
+          "title": "global_indicators.11-3-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-3-2",
@@ -1239,7 +1215,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "모든 문화 및 자연유산의 보존, 보호 및 관리에 배정된 1인당 총 지출액(자금원천(공공, 민간), 유산종류(문화, 자연), 정부유형(중앙, 광역, 시군)별)",
+          "title": "global_indicators.11-4-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-4-1",
@@ -1247,7 +1223,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "인구 1십만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "global_indicators.11-5-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-5-1",
@@ -1255,7 +1231,7 @@
         },
         {
           "id": "11-5-2",
-          "title": "중요 기반시설 피해 및 기본적인 서비스의 중단 등 재난으로 인한 GDP 대비 직접적인 경제적 손실",
+          "title": "global_indicators.11-5-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-5-2",
@@ -1263,7 +1239,7 @@
         },
         {
           "id": "11-6-1",
-          "title": "지자체에서 수거되고 관리되는 고형 폐기물 비율",
+          "title": "global_indicators.11-6-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-6-1",
@@ -1271,7 +1247,7 @@
         },
         {
           "id": "11-6-2",
-          "title": "도시 미세먼지의 연평균수준 (인구수에 따른 가중)",
+          "title": "global_indicators.11-6-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-6-2",
@@ -1279,7 +1255,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "도시에서 공공목적의 용도를 위해 개방된 공용 공간이 차지하는 평균비율 (연령, 성 및 장애별)",
+          "title": "global_indicators.11-7-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-7-1",
@@ -1287,7 +1263,7 @@
         },
         {
           "id": "11-7-2",
-          "title": "지난 12개월 동안 신체적 혹은 성적 괴롭힘을 당한 인구의 성, 연령, 장애, 발생장소별 비율",
+          "title": "global_indicators.11-7-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-7-2",
@@ -1295,7 +1271,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가의 수",
+          "title": "global_indicators.11-a-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-a-1",
@@ -1303,7 +1279,7 @@
         },
         {
           "id": "11-b-1",
-          "title": "「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
+          "title": "global_indicators.11-b-1-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-b-1",
@@ -1311,7 +1287,7 @@
         },
         {
           "id": "11-b-2",
-          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
+          "title": "global_indicators.11-b-2-title",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-b-2",
