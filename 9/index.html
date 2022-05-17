@@ -105,7 +105,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>목표 9 - 사회기반시설 산업화 및 혁신 - 수도권 광역지표 온라인 서비스-master</title>
+    <title>목표 9 - 개인생활 - 수도권 광역지표 온라인 서비스-master</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220517043435">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220517053511">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -175,21 +175,14 @@ layout-goal-by-target
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <!-- _includes/components/header/logo.html 시작//-->
+      <!-- _includes/components/header/logo.html //-->
 
 <a class="navbar-brand" href="/site_test/" id="home">
     <img src="/site_test/assets/img/SDG_logo.png" alt="수도권 광역지표 온라인 서비스" />
 </a>
 
-<!-- _includes/components/header/logo.html 끝//-->
+      
 
-      <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
-        <!-- _includes/components/header/contrast-toggle.html 시작 //-->
-
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
-
-    </ul></div>
     </div>
 
     <nav class="navbar navbar-default" id="main-nav">
@@ -208,9 +201,33 @@ layout-goal-by-target
     <a href="/site_test/faq">FAQ</a>
 </li>
 
-<!-- _includes/components/header/contrast-toggle.html 시작 //-->
 
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
 
 
 </ul>
@@ -220,23 +237,11 @@ layout-goal-by-target
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">검색</button>
-        <div id="search-mobile" class="menu-target">
-  <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">검색</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
-    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
+        <!--- search.html -->
 
     </li>
 </ul>
-      <div id="search" class="menu-target">
-  <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">검색</label>
-    <input type="text" name="q" id="indicator_search" title="검색" /><!--
-    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
+      <!--- search.html -->
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
     <a href="/site_test/about">수도권 광역지표 소개</a>
@@ -248,9 +253,33 @@ layout-goal-by-target
     <a href="/site_test/faq">FAQ</a>
 </li>
 
-<!-- _includes/components/header/contrast-toggle.html 시작 //-->
 
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
 
 
 </ul>
@@ -280,11 +309,11 @@ layout-goal-by-target
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://dbox75.github.io/site_test/assets/img/goals/ko/9.png" alt="사회기반시설 산업화 및 혁신 - 목표 9" id="goal-9" class="goal-icon-image goal-icon-image-" />
+        <img src="https://dbox75.github.io/site_test/assets/img/goals/ko/9.png" alt="개인생활 - 목표 9" id="goal-9" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">목표 9: </span>회복력 있는 사회기반시설 구축, 포용적이고 지속가능한 산업화 증진과 혁신 도모
+          <span class="hidden-sm hidden-md hidden-lg">목표 9: </span>생활 지표 - 개인생활 영역
         </h1>
       </div>
     </div>
@@ -299,7 +328,7 @@ layout-goal-by-target
   <li><a href="/site_test/">Home</a></li>
   <li><a href="/site_test/goals">11개 영역</a></li>
   
-  <li><a href="/site_test/9" title="회복력 있는 사회기반시설 구축, 포용적이고 지속가능한 산업화 증진과 혁신 도모">목표 9</a></li>
+  <li><a href="/site_test/9" title="생활 지표 - 개인생활 영역">목표 9</a></li>
   
 </ol>
 
@@ -325,7 +354,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.1
       </span>
-      지속가능하며 회복력 있는 사회기반시설 구축
+      건강
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -395,7 +424,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.2
       </span>
-      포용적이고 지속가능한 산업화 촉진
+      교육/훈련
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -465,7 +494,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.3
       </span>
-      소규모 산업체와 기타 기업의 금융 서비스 접근 향상
+      일
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -535,7 +564,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.4
       </span>
-      사회기반시설 개선 및 친환경 기술 및 산업 프로세스 확장
+      소득/소비
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -576,7 +605,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.5
       </span>
-      연구개발(R&D) 인력 확대 및 산업분야의 기술역량 향상
+      문화/여가
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -646,7 +675,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.a
       </span>
-      개도국 금융, 기술 지원을 통해 지속가능한 사회기반시설 개발 촉진
+      global_targets.9-a-title
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -687,7 +716,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.b
       </span>
-      개도국 기술개발, 연구 및 혁신 지원
+      global_targets.9-b-title
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -728,7 +757,7 @@ layout-goal-by-target
         <label class="hidden-md hidden-lg">세부목표</label>
         9.c
       </span>
-      최빈개도국의 정보통신기술 및 보편적인 인터넷 접근 제공
+      global_targets.9-c-title
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -812,12 +841,12 @@ layout-goal-by-target
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220517043435'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220517053511'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220517043435"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220517053511"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

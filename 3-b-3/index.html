@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220517043435">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220517053511">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -180,21 +180,14 @@ layout-indicator
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <!-- _includes/components/header/logo.html 시작//-->
+      <!-- _includes/components/header/logo.html //-->
 
 <a class="navbar-brand" href="/site_test/" id="home">
     <img src="/site_test/assets/img/SDG_logo.png" alt="수도권 광역지표 온라인 서비스" />
 </a>
 
-<!-- _includes/components/header/logo.html 끝//-->
+      
 
-      <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
-        <!-- _includes/components/header/contrast-toggle.html 시작 //-->
-
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
-
-    </ul></div>
     </div>
 
     <nav class="navbar navbar-default" id="main-nav">
@@ -213,9 +206,33 @@ layout-indicator
     <a href="/site_test/faq">FAQ</a>
 </li>
 
-<!-- _includes/components/header/contrast-toggle.html 시작 //-->
 
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
 
 
 </ul>
@@ -225,23 +242,11 @@ layout-indicator
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">검색</button>
-        <div id="search-mobile" class="menu-target">
-  <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search-mobile">검색</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
-    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
+        <!--- search.html -->
 
     </li>
 </ul>
-      <div id="search" class="menu-target">
-  <form action="/site_test/search/">
-    <label class="sr-only" for="indicator_search">검색</label>
-    <input type="text" name="q" id="indicator_search" title="검색" /><!--
-    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
+      <!--- search.html -->
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
     <a href="/site_test/about">수도권 광역지표 소개</a>
@@ -253,9 +258,33 @@ layout-indicator
     <a href="/site_test/faq">FAQ</a>
 </li>
 
-<!-- _includes/components/header/contrast-toggle.html 시작 //-->
 
-<!-- _includes/components/header/contrast-toggle.html 끝 //-->
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
 
 
 </ul>
@@ -438,7 +467,7 @@ function copyUrl(){
   <li><a href="/site_test/">Home</a></li>
   <li><a href="/site_test/goals">11개 영역</a></li>
   
-  <li><a href="/site_test/3" title="모든 연령층의 모두를 위한 건강한 삶 보장과 웰빙 증진">목표 3</a></li>
+  <li><a href="/site_test/3" title="경쟁력 지표 - 번영 영역">목표 3</a></li>
   
 </ol>
 
@@ -451,7 +480,7 @@ function copyUrl(){
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
         <a href="/site_test/3" title="View this goal's indicator list">
-          <img src="https://dbox75.github.io/site_test/assets/img/goals/ko/3.png" alt="건강과 웰빙 증진 - 목표 3" id="goal-3" class="goal-icon-image goal-icon-image-"/>
+          <img src="https://dbox75.github.io/site_test/assets/img/goals/ko/3.png" alt="번영 - 목표 3" id="goal-3" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -476,7 +505,7 @@ function copyUrl(){
   <li><a href="/site_test/">Home</a></li>
   <li><a href="/site_test/goals">11개 영역</a></li>
   
-  <li><a href="/site_test/3" title="모든 연령층의 모두를 위한 건강한 삶 보장과 웰빙 증진">목표 3</a></li>
+  <li><a href="/site_test/3" title="경쟁력 지표 - 번영 영역">목표 3</a></li>
   
 </ol>
 
@@ -1240,12 +1269,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220517043435'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220517053511'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220517043435"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220517053511"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
