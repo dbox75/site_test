@@ -47,6 +47,8 @@ body.contrast-high {
 @for $i from 1 through length($goal-banner-backgroundColors) {
 	$background-c: nth($goal-banner-backgroundColors, $i);
 	.goal-#{$i} {
+		padding-top: 10px;
+                padding-bottom: 10px;
 		&.goal-banner {
 			background-color: $background-c;
 		}
