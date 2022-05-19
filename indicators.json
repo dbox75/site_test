@@ -414,11 +414,51 @@
           "status": "notstarted"
         },
         {
+          "id": "6-1-2",
+          "title": "연구개발투자비율(GDP 대비)",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-1-3",
+          "title": "창업기업 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-1-3",
+          "status": "notstarted"
+        },
+        {
           "id": "6-2-1",
           "title": "고용률",
           "description": "",
           "keywords": "",
           "href": "/site_test/6-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-2",
+          "title": "근로여건만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-3",
+          "title": "근로시간",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-4",
+          "title": "지역별 사업체 수 및 종사자 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-2-4",
           "status": "notstarted"
         },
         {
@@ -435,6 +475,14 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/6-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-3",
+          "title": "가구순자산",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/6-3-3",
           "status": "notstarted"
         }]
     }
@@ -459,6 +507,22 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/7-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-1-3",
+          "title": "신재생에너지 보급률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/7-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-1-4",
+          "title": "최종에너지 소비량",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/7-1-4",
           "status": "notstarted"
         }]
     }
@@ -502,6 +566,46 @@
           "status": "notstarted"
         },
         {
+          "id": "9-1-3",
+          "title": "인구 천 명당 의료기관 종사 의사수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-4",
+          "title": "기대수명",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-5",
+          "title": "스트레스 인지율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-1-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-6",
+          "title": "주관적 건강수준 인지율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-1-6",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-7",
+          "title": "비만유병률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-1-7",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-1",
           "title": "학교생활 만족도",
           "description": "",
@@ -515,6 +619,38 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/9-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-3",
+          "title": "고등교육이수율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-4",
+          "title": "학교교육의 효과",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-2-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-5",
+          "title": "평생교육참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-2-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-6",
+          "title": "학생 1인당 월평균 사교육비",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-2-6",
           "status": "notstarted"
         },
         {
@@ -534,11 +670,59 @@
           "status": "notstarted"
         },
         {
+          "id": "9-3-3",
+          "title": "고용률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-4",
+          "title": "근로시간",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-3-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-5",
+          "title": "실업률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-3-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-6",
+          "title": "비정규직 근로자 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-3-6",
+          "status": "notstarted"
+        },
+        {
           "id": "9-4-1",
           "title": "1인당 개인소득",
           "description": "",
           "keywords": "",
           "href": "/site_test/9-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-2",
+          "title": "소비생활 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-3",
+          "title": "주관적 소득수준",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-4-3",
           "status": "notstarted"
         },
         {
@@ -555,6 +739,70 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/9-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-3",
+          "title": "평일 여가시간 비중",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-5-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-4",
+          "title": "인구 십만 명당 문화기반시설 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-5-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-1",
+          "title": "주거환경 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-2",
+          "title": "지역별 PIR",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-3",
+          "title": "자가보유율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-4",
+          "title": "연면적 평균 거주인수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-5",
+          "title": "공공임대주택 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-6",
+          "title": "월세/전세 가격지수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/9-6-6",
           "status": "notstarted"
         }]
     }
@@ -574,11 +822,75 @@
           "status": "notstarted"
         },
         {
+          "id": "10-1-2",
+          "title": "가족관계 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-3",
+          "title": "1인 가구 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-4",
+          "title": "유아 천 명당 보육시설 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-5",
+          "title": "조혼인율/조이혼율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-1-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-6",
+          "title": "독거노인 가구비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-1-6",
+          "status": "notstarted"
+        },
+        {
           "id": "10-2-1",
           "title": "기초생활보장 수급자수",
           "description": "",
           "keywords": "",
           "href": "/site_test/10-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-2",
+          "title": "자원봉사참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-3",
+          "title": "기부율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-4",
+          "title": "사회단체참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/10-2-4",
           "status": "notstarted"
         }]
     }
@@ -598,11 +910,67 @@
           "status": "notstarted"
         },
         {
+          "id": "11-1-2",
+          "title": "녹지 환경 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-3",
+          "title": "일반폐기물 재활용률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-4",
+          "title": "재생에너지 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-1-4",
+          "status": "notstarted"
+        },
+        {
           "id": "11-2-1",
           "title": "인구 천 명당 범죄발생건수",
           "description": "",
           "keywords": "",
           "href": "/site_test/11-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-2",
+          "title": "강력볌죄 발생률",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-3",
+          "title": "소방공무원 1인당 담당 주민수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-4",
+          "title": "사회안전에 대한 인식",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-2-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-5",
+          "title": "교통사고 발생건수",
+          "description": "",
+          "keywords": "",
+          "href": "/site_test/11-2-5",
           "status": "notstarted"
         }]
     }
