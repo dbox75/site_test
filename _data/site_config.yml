@@ -98,6 +98,7 @@ frontpage_cards:
     content: |
       Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a 
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
