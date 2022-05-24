@@ -27,7 +27,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -35,7 +35,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-3",
@@ -43,7 +43,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/1-2-3",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
