@@ -1,6 +1,7 @@
 <!-- "_layouts/reportingstatus.html" 시작 //-->
 
 {% include head.html %}
+{% include header.html %}
 
 {% assign reporting_data = site.data.reporting %}
 {% if site.data[page.language].reporting %}
@@ -12,17 +13,6 @@
   {% assign disagg_data = site.data[page.language].disaggregation %}
 {% endif %}
 
-{%- assign extra_fields = false -%}
-{%- for extra_field in reporting_data.extra_fields -%}
-  {%- assign extra_fields = true -%}
-{%- endfor -%}
-
-{% assign show_tabs = false %}
-{% if extra_fields %}
-  {% assign show_tabs = true %}
-{% elsif site.reporting_status.disaggregation_tabs and disagg_data %}
-  {% assign show_tabs = true %}
-{% endif %}
 
 <div id="main-content" class="container reportingstatus" role="main">
 
@@ -33,16 +23,6 @@
     <li role="presentation" class="nav-item active">
       <a class="nav-link" data-toggle="tab" href="#goalsview" aria-controls="goals" role="tab" {% include autotrack.html preset="tab_reporting_status_goals" category="Tab change" action="Change reporting status view" label="Change reporting status view to goals" %}>{{ page.t.status.reporting_status }}</a>
     </li>
-    {% if extra_fields %}
-      {% for extra_field in reporting_data.extra_fields %}
-      {% assign extra_field_name = extra_field[0] %}
-      {% assign extra_field_translated = extra_field_name | translate_metadata_field %}
-      {% assign extra_field_autotrack = 'Change reporting status view to ' | append: extra_field_name %}
-      <li role="presentation" class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#{{ extra_field_name }}view" aria-controls="{{ extra_field_name }}" role="tab" {% include autotrack.html preset="tab_reporting_status_extra_field" category="Tab change" action="Change reporting status view" label=extra_field_autotrack %}>{{ page.t.status.status_by_field | replace: "%field", extra_field_translated }}</a>
-      </li>
-      {% endfor %}
-    {% endif %}
 
     {% if site.reporting_status.disaggregation_tabs %}
       <li role="presentation" class="nav-item">
