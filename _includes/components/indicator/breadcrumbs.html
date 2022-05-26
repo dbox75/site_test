@@ -3,7 +3,7 @@
 
   넘겨받는 변수값 : {{ include.size }}<br>
 
-  {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 and include.size < 3 %}
+  {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
   {% for item in site.breadcrumbs.indicator %}
     {%- assign item_path = item.path -%}
     {%- assign item_path_first = item_path | slice: 0 %}
@@ -16,6 +16,9 @@
   {% else %}
   <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
+  <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
+  {% endif %}
+  {% if include.size %}
   <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
   {% endif %}
 </ol>
