@@ -19,7 +19,7 @@ layout: page
    .suffle_div img { width:40%; float: right; }
 
 </style>
-
+<br>
 <div class="contents_box">
 	<div>
 		<span class="title">수도권 광역지표 소개</span>
