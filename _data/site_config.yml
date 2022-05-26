@@ -16,6 +16,8 @@ breadcrumbs:
       label: general.home
     - path: /goals
       label: general.goals
+    - path: /goals/indicators
+      label: general.indicators
   post:
     - path: /
       label: general.home
