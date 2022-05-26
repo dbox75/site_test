@@ -1,7 +1,7 @@
 {% unless page.indicator.standalone %}
 <ol class="breadcrumb">
   <!-- 확인용 -->
-  {{ site.breadcrumbs.indicator }}<br>{{ site.breadcrumbs.indicator.size }}<br>{{ include.size | t }}<br>
+  {{ include.size }}<br>
   <!-- 확인용 끝 -->
   {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
   {% for item in site.breadcrumbs.indicator %}
@@ -13,9 +13,6 @@
     <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
   {% endfor %}
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
-
-  <li class="active">{{ page.t.general.indicator }} {{ page.indicator.number }}</li>
-
   {% else %}
   <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
