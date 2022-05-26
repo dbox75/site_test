@@ -1,7 +1,7 @@
 {% unless page.indicator.standalone %}
 <ol class="breadcrumb">
 
-  넘겨받는 변수값 : {{ include.size }}<br>
+  [TEST DATA] depth_level : {{ include.depth_level }}<br>
 
   {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
   {% for item in site.breadcrumbs.indicator %}
@@ -18,7 +18,7 @@
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
   <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
   {% endif %}
-  {% if include.size %}
+  {% if include.depth_level %}
   <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
   {% endif %}
 </ol>
