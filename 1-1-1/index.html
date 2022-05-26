@@ -109,7 +109,7 @@ var translations = {
         
         지표 1.1.1 -
         
-        인구성장률 - 수도권 광역지표 온라인 서비스
+        인구성장률 - growth/shrinking index of the total population(2001=100) - 수도권 광역지표 온라인 서비스
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220526070732">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220526075616">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -468,7 +468,7 @@ function copyUrl(){
                         
                         지표 1.1.1
                         
-                        <span class="lead-copy">인구성장률</span>
+                        <span class="lead-copy">인구성장률 - growth/shrinking index of the total population(2001=100)</span>
                     </h1>
                 </div>
             </div>
@@ -489,7 +489,7 @@ function copyUrl(){
   <li><a href="/site_test/1" title="경쟁력 지표 - 자원 영역">경쟁력 지표 - 자원 영역</a></li>
   
   
-  <li class="active">인구성장률</li>
+  <li class="active">인구성장률 - growth/shrinking index of the total population(2001=100)</li>
   
 </ol>
 
@@ -1105,16 +1105,13 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
-      
-        
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">Goal </th>
+        <th scope="row" style="white-space: nowrap">영역 </th>
         <td>
           
-            <p>Goal 1: End poverty in all its forms everywhere?</p>
+            <p>자원</p>
 
           
         </td>
@@ -1127,10 +1124,10 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">Target </th>
+        <th scope="row" style="white-space: nowrap">하위영역 </th>
         <td>
           
-            <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</p>
+            <p>인적 자원</p>
 
           
         </td>
@@ -1143,10 +1140,10 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">Indicator </th>
+        <th scope="row" style="white-space: nowrap">지표명 </th>
         <td>
           
-            <p>Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</p>
+            <p>인구성장률 - growth/shrinking index of the total population(2001=100)</p>
 
           
         </td>
@@ -1154,60 +1151,15 @@ data-event-label="Change to indicator.global_metadata tab"
         
       
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
       
         
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">Definition and concepts </th>
+        <th scope="row" style="white-space: nowrap">정의 </th>
         <td>
           
-            <h2 id="definition">Definition:</h2>
-<p>The proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90.</p>
-<h2 id="concepts">Concepts:</h2>
-<p><strong>Employment:</strong> All persons of working age who, during a short reference period (one week), were engaged in any activity to produce goods or provide services for pay or profit.</p>
-
-<p><strong>Poverty Line:</strong> Threshold below which individuals in the reference population are considered poor and above which they are considered non-poor. The threshold is generally defined as the per-capita monetary requirements an individual needs to afford the purchase of a basic bundle of goods and services. For the purpose of this indicator, an absolute international poverty line of US$1.90 per day is used.</p>
-
-<p><strong>Household in poverty:</strong> Households are defined as poor if their income or consumption expenditure is below the poverty line taking into account the number of household members and composition (e.g., number of adults and children).</p>
-
-<p><strong>Working poor:</strong> Employed persons living in households that are classified as poor, that is, that have income or consumption levels below the poverty line used for measurement.</p>
+            <p>인구성장률은 자연증가율과 사회적 증가율의 합으로 특정시점(2001년)을 기준으로 인구의 증감율을 나타내는 지표임</p>
 
           
         </td>
@@ -1215,6 +1167,144 @@ data-event-label="Change to indicator.global_metadata tab"
         
       
   
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">의의 </th>
+        <td>
+          
+            <p>한 국가의 인구 및 인구성장률은 그 국가의  장·단기 국가발전 계획수립에 있어 가장 기본적이고 근원적인 기초자료로서 인구와 관련된 각종 경제·사회 정책을 수립하는데 활용됨</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">측정 </th>
+        <td>
+          
+            <p>인구증가율 = (당해년 전체인구수÷2001년 전체인구수) x 100</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료출처 </th>
+        <td>
+          
+            <p>OECD.stat &gt; Regions and Cities &gt; Regional Statistics &gt; Regional Demography &gt; demographic indicators by access to city typology. country level</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">단위 </th>
+        <td>
+          
+            <p>%</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">범위 </th>
+        <td>
+          
+            <p>2001년 ~ 2021년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">metadata_fields.data_update </th>
+        <td>
+          
+            <p>19 May 2022</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
       
         
           
@@ -1326,8 +1416,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://github.com/dbox75/data_test/commit/1fbad667f503e232ab3ebac60dfaa4e30dd2dbea" target="_blank">
-                2022-05-12: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/dbox75/data_test/commit/8a1b484ff4e11dc82af6c0611dc115d461ad8af6" target="_blank">
+                2022-05-26: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1416,44 +1506,6 @@ data-event-label="Change to indicator.global_metadata tab"
   
   
   
-      
-        
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">데이터 유형 </th>
-        <td>
-          
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-        
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">지표명 </th>
-        <td>
-          
-            <p>인구성장률</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-        
-          
-      
-        
-          
       
         
           
@@ -1732,6 +1784,9 @@ data-event-label="Change to indicator.global_metadata tab"
   
   
   
+  
+  
+  
 </table>
 
       </article>
@@ -1840,12 +1895,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220526070732'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220526075616'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220526070732"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220526075616"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
