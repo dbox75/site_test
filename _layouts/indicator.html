@@ -92,7 +92,7 @@ function copyUrl(){
 </div>
 {% include components/indicator/header.html %}
 <div id="main-content" class="container goal-{{ page.goal.number }}" role="main">
-	{% include components/indicator/breadcrumbs.html %}
+	{% include components/indicator/breadcrumbs.html site.breadcrumbs.indicator.size=3 %}
 	<div class="text-right"> 
 <div class="btn-group" role="group">
 <button class="btn btn-default" onclick="zoomIn();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
