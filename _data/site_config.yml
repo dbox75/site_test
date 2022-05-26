@@ -19,8 +19,6 @@ breadcrumbs:
   post:
     - path: /
       label: general.home
-    - path: /news
-      label: menu.updates
     - path: /about
       label: menu.about      
       
