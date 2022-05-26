@@ -16,13 +16,13 @@ breadcrumbs:
       label: general.home
     - path: /goals
       label: general.goals
-    - path: /indicators
-      label: general.indicators
   post:
     - path: /
       label: general.home
     - path: /news
       label: menu.updates
+    - path: /about
+      label: menu.about      
       
 contrast_type: default      
 cookie_consent_form:
