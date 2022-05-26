@@ -25,7 +25,7 @@ breadcrumbs:
     - path: /
       label: general.home
     - path: /about
-      label: menu.about     
+      label: menu.about
       
 contrast_type: default      
 cookie_consent_form:
