@@ -59,7 +59,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
@@ -67,7 +67,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-3",
@@ -75,7 +75,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
@@ -83,7 +83,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
@@ -91,7 +91,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
@@ -99,7 +99,7 @@
           "description": "",
           "keywords": "",
           "href": "/site_test/2-2-3",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
