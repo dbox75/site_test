@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527042300">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527045522">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,21 +514,93 @@ layout-config-builder
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_definitions', "영   역: 자원<br> 하위영역: 물적 자원");
+        var propertyEditor = editor.getEditor('root.computation_definitions');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_definitions');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "고속도로연장률: Motorway density");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_definition', "도로연장이란 도로의 총길이를 나타내는 것으로 고속국도, 일반국도, 특별·광역시도, 지방도, 시·군·구도의 연장을 말하하는데, 이 지표에서는 국제비교를 위해 고속국도 연장률을 이용함");
+        var propertyEditor = editor.getEditor('root.indicator_definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_importance', "도로연장이란 도로의 총길이를 나타내는 것으로 고속국도, 일반국도, 특별·광역시도, 지방도, 시·군·구도의 연장을 말함");
+        var propertyEditor = editor.getEditor('root.indicator_importance');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_importance');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_importance'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_calculations', "국토계수당 도로연장 = 도로연장(㎞) / 지역면적1,000(㎢)");
+        var propertyEditor = editor.getEditor('root.computation_calculations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_calculations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('statistics_name', "1. 해외 도시: eurostat > general and regional statistics > reional transport statistics(reg_tran) > road, rail and navigable inland waterways networks by nuts2 reiongs(tran_r_net)<br> 2. 수도권: KOSIS > 시도 도로보급률<br> (https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_966&vw_cd=MT_ZTITLE&list_id=M2_10&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)<br>\n KOSIS > 도시지역면적<br>\n (https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL21291E&vw_cd=MT_GTITLE01&list_id=107&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_GTITLE01)<br>     \n * KOSIS 개편 시  통계표 URL은 달라질 수 있음");
+        var propertyEditor = editor.getEditor('root.statistics_name');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: statistics_name');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.statistics_name'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "km/1,000㎢");
+        var currentValue = normalizeCurrentValue('computation_units', "㎞/1,000㎢");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -540,8 +612,32 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_coverage', "eurostat: 2001년 ~ 2019년 / KOSIS 2005년 ~ 2020년");
+        var propertyEditor = editor.getEditor('root.computation_coverage');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_coverage');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_download_date', "eurostat: 2022. 5. 23./ KOSIS: 2022. 5. 23.");
+        var propertyEditor = editor.getEditor('root.data_download_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_download_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -612,12 +708,60 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/dbox75/data_test/commit/6177197d803aeb972e6ee8114b7c0fa6438886d7");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-05-24: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/dbox75/data_test/commit/e8288ded9e231d67be4e7ffa993d3744bb1ba0ba");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-05-27: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_name'));
@@ -742,12 +886,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220527042300'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220527045522'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220527042300"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220527045522"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
