@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527062007">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527063225">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1176,15 +1176,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <ol>
-  <li>해외 도시: eurostat &gt; general and regional statistics &gt; reional transport statistics(reg_tran) &gt; road, rail and navigable inland waterways networks by nuts2 reiongs(tran_r_net)<br /> 2. 수도권: KOSIS &gt; 시도 도로보급률<br /> (https://kosis.kr/statHtml/statHtml.do?orgId=116&amp;tblId=DT_MLTM_966&amp;vw_cd=MT_ZTITLE&amp;list_id=M2_10&amp;seqNo=&amp;lang_mode=ko&amp;language=kor&amp;obj_var_id=&amp;itm_id=&amp;conn_path=MT_ZTITLE)<br />
- KOSIS &gt; 도시지역면적<br />
- (https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1YL21291E&amp;vw_cd=MT_GTITLE01&amp;list_id=107&amp;seqNo=&amp;lang_mode=ko&amp;language=kor&amp;obj_var_id=&amp;itm_id=&amp;conn_path=MT_GTITLE01)<br />
-    <ul>
-      <li>KOSIS 개편 시  통계표 URL은 달라질 수 있음</li>
-    </ul>
-  </li>
-</ol>
+            <p>○ 해외 도시 - eurostat &gt; general and regional statistics &gt; reional transport statistics(reg_tran) &gt; road, rail and navigable inland waterways networks by nuts2 reiongs(tran_r_net)<br />○ 수도권 - KOSIS &gt; 시도 도로보급률<br /> (https://kosis.kr/statHtml/statHtml.do?orgId=116&amp;tblId=DT_MLTM_966&amp;vw_cd=MT_ZTITLE&amp;list_id=M2_10&amp;seqNo=&amp;lang_mode=ko&amp;language=kor&amp;obj_var_id=&amp;itm_id=&amp;conn_path=MT_ZTITLE)<br />KOSIS &gt; 도시지역면적<br /> (https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1YL21291E&amp;vw_cd=MT_GTITLE01&amp;list_id=107&amp;seqNo=&amp;lang_mode=ko&amp;language=kor&amp;obj_var_id=&amp;itm_id=&amp;conn_path=MT_GTITLE01)<br /> ※ KOSIS 개편 시  통계표 URL은 달라질 수 있음</p>
 
           
         </td>
@@ -1226,7 +1218,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료다운일자 </th>
+        <td>
           
+            <p>eurostat: 2022. 5. 23./ KOSIS: 2022. 5. 23.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1374,7 +1379,7 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/dbox75/data_test/commit/e8288ded9e231d67be4e7ffa993d3744bb1ba0ba" target="_blank">
+              <a href="https://github.com/dbox75/data_test/commit/183d3da2856ddb30263e00141fbb32dce9fb7f26" target="_blank">
                 2022-05-27: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
@@ -1582,12 +1587,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220527062007'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220527063225'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220527062007"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220527063225"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
