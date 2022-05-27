@@ -155,7 +155,7 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
-    - global
+#    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
