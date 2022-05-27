@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527063225">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527070334">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,16 +514,88 @@ layout-config-builder
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_definitions', "영   역: 역량<br> 하위영역: 제도적 역량");
+        var propertyEditor = editor.getEditor('root.computation_definitions');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_definitions');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "부정부패 지수: CORRUPTION PERCEPTIONS INDEX");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_definition', "전문가들의 설문조사를 통해 해당 국가 정부가 부정부패하다고 인지하는 비율을 산정");
+        var propertyEditor = editor.getEditor('root.indicator_definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_importance', "해당 광역 지역이 속한 국가의 부정부패 수준은 국민의 정부에 대한 신뢰에 영향을 미치고 궁극적으로 정부와 민간의 협력을 통한 발전의 노력에 대한 자발적 참여를 유도함");
+        var propertyEditor = editor.getEditor('root.indicator_importance');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_importance');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_importance'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_calculations', "12년부터 100점 만점으로 CPI 발표(이전 연도까지는 10점 만점)");
+        var propertyEditor = editor.getEditor('root.computation_calculations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_calculations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('statistics_name', "Transparency International > CORRUPTION PERCEPTIONS INDEX");
+        var propertyEditor = editor.getEditor('root.statistics_name');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: statistics_name');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.statistics_name'));
 
     
@@ -540,8 +612,32 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_coverage', "2016년~2021년, 이전자료 없음");
+        var propertyEditor = editor.getEditor('root.computation_coverage');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_coverage');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_download', "");
+        var propertyEditor = editor.getEditor('root.data_download');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_download');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -612,12 +708,60 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/dbox75/data_test/commit/a38e9040d8c8ca0f8971056b6ba71b82d35ee037");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-05-25: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/dbox75/data_test/commit/d2a75dd26b5b388dbd623496802eed0b8de1ba88");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-05-27: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_name'));
@@ -742,12 +886,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220527063225'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220527070334'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220527063225"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220527070334"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

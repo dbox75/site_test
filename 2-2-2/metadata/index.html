@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527063225">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527070334">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,16 +514,88 @@ layout-config-builder
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_definitions', "영   역: 역량<br> 하위영역: 혁신 역량");
+        var propertyEditor = editor.getEditor('root.computation_definitions');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_definitions');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "G(R)DP 중 R&D 지출 비중: Share of R&D Total Expenditure");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_definition', "국가 혹은 광역 수준 총생산액 중에서 공공 혹은 민간 부문의 연구개발에 투자한 액수의 비율로 산정");
+        var propertyEditor = editor.getEditor('root.indicator_definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_importance', "국가 혹은 지역 총생산 중에서 연구개발비 지출이 차지하는 비중은 해당 국가나 지역이 혁신과 신기술 개발에 몰입하는 정도를 나타냄");
+        var propertyEditor = editor.getEditor('root.indicator_importance');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_importance');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_importance'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_calculations', "G(R)DP 중 R&D 지출 비중 = (R&D 지출/G(R)DP) x 100");
+        var propertyEditor = editor.getEditor('root.computation_calculations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_calculations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('statistics_name', "OECD.stat > Regions and Cities > Regional statistics > Region innovaion > R&D expenditure by performing sector   ");
+        var propertyEditor = editor.getEditor('root.statistics_name');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: statistics_name');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.statistics_name'));
 
     
@@ -540,8 +612,32 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_coverage', "2001년 ~ 2018년");
+        var propertyEditor = editor.getEditor('root.computation_coverage');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_coverage');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_download', "16 May 2022");
+        var propertyEditor = editor.getEditor('root.data_download');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_download');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -612,12 +708,60 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/dbox75/data_test/commit/dcc0ad0f6e3cef4df299f538392f8ce11a0d08a7");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-05-25: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/dbox75/data_test/commit/d2a75dd26b5b388dbd623496802eed0b8de1ba88");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-05-27: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_name'));
@@ -742,12 +886,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220527063225'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220527070334'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220527063225"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220527070334"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
