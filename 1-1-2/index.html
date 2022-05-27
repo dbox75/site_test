@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527045522">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220527052220">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1177,11 +1177,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <td>
           
             <ol>
-  <li>해외 도시: OECD.stat &gt; Regions and Cities &gt; Regional Statistics&gt; Region Innovation &gt; Education attainment of the labour force<br /> 2. 수도권: KOSIS &gt; 행정구역(시도)/교육정도별 경제활동인구(https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1DA7016S&amp;conn_path=I3)<br />
-    <ul>
-      <li>KOSIS 개편 시 통계표 URL은 달라질 수 있음</li>
-    </ul>
-  </li>
+  <li>해외 도시: OECD.stat &gt; Regions and Cities &gt; Regional Statistics&gt; Region Innovation &gt; Education attainment of the labour force 2. 수도권: KOSIS &gt; 행정구역(시도)/교육정도별 경제활동인구(https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1DA7016S&amp;conn_path=I3) ※ KOSIS 개편 시 통계표 URL은 달라질 수 있음</li>
 </ol>
 
           
@@ -1230,7 +1226,8 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료다운일자 </th>
         <td>
           
-            May 19, 2022
+            <p>OECD.stat: 19 May 2022 / KOSIS: 2022. 5. 12.</p>
+
           
         </td>
         </tr>
@@ -1384,7 +1381,7 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/dbox75/data_test/commit/e8288ded9e231d67be4e7ffa993d3744bb1ba0ba" target="_blank">
+              <a href="https://github.com/dbox75/data_test/commit/67ff0cc29a313e788dba5d28d134bbcd5e43f7cf" target="_blank">
                 2022-05-27: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
@@ -1592,12 +1589,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220527045522'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220527052220'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220527045522"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220527052220"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
