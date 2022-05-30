@@ -17,9 +17,9 @@
                 <div>
                     <h1>
                         {% unless page.indicator.standalone %}
-                        {{ page.t.general.indicator }} {{ page.indicator.number }} {{ page.target.name }}
+                        <span class="lead-copy">{{ page.target.name }}</span>
                         {% endunless %}
-                        <span class="lead-copy">{{ page.indicator.name }}</span>
+                        {{ page.indicator.name }}
                     </h1>
                 </div>
             </div>
