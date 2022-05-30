@@ -91,6 +91,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
+    
   - title: Lorem ipsum
     content: |
       - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
