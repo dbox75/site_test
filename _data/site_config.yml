@@ -26,6 +26,10 @@ breadcrumbs:
       label: general.home
     - path: /about
       label: menu.about
+    - path: /faq
+      label: menu.faq
+    - path: /reporting-status
+      label: menu.reporting_status      
       
 contrast_type: default      
 cookie_consent_form:
