@@ -12,7 +12,11 @@
     {%- endif -%}
     <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
   {% endfor %}
-  <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
+    {% if include.depth_level %}  
+    <li>{{ page.goal.name | escape }}</li>
+    {% else %}
+    <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
+  {% endif %}
   {% else %}
   <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
