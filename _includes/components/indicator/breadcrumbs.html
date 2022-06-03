@@ -4,24 +4,27 @@
   [TEST DATA] depth_level : {{ include.depth_level }}<br>
 
   {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
+  
   {% for item in site.breadcrumbs.indicator %}
     {%- assign item_path = item.path -%}
     {%- assign item_path_first = item_path | slice: 0 %}
     {%- if item_path_first == '/' -%}
       {%- assign item_path = item_path | slice: 1, item_path.size -%}
     {%- endif -%}
-    <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
+    <li>99<a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
   {% endfor %}
-    {% if include.depth_level %}  
-    <li>{{ page.goal.name | escape }}</li>
+    {% if include.depth_level %}
+    <li>ooo<a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
     {% else %}
-    <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
-  {% endif %}
+    <li> sdfsdf </li>
+    {% endif %}
+
   {% else %}
   <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
   <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
   <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
   {% endif %}
+  
   {% if include.depth_level %}
   <li class="active">{{ page.target.name }} - {{ page.indicator.name }}</li>
   {% endif %}
