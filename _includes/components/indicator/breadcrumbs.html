@@ -11,12 +11,12 @@
     {%- if item_path_first == '/' -%}
       {%- assign item_path = item_path | slice: 1, item_path.size -%}
     {%- endif -%}
-    <li>99<a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
+    <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
   {% endfor %}
     {% if include.depth_level %}
-    <li>ooo<a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
+    <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
     {% else %}
-    <li> sdfsdf </li>
+    <li>{{ page.goal.name | escape }}</li>
     {% endif %}
 
   {% else %}
