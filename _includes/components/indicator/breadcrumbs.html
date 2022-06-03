@@ -16,7 +16,7 @@
     {% if include.depth_level %}
     <li><a href="{{ page.goal.url }}" title="{{ page.goal.short | escape }}">{{ page.goal.short | escape }}</a></li>  
     {% else %}
-    <li>{{ page.goal.name | escape }}</li>
+    <li>{{ page.goal.short | escape }}</li>
     {% endif %}
 
   {% else %}
