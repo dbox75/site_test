@@ -5,7 +5,7 @@
   
   {% if page.goal.number == '1' or page.goal.number == '2' or page.goal.number == '3' or page.goal.number == '4' %}
     {%- assign goal_full = '경쟁력 지표' -%}
-  {% elseif page.goal.number == '5' or page.goal.number == '6' or page.goal.number == '7' %}
+  {% elif page.goal.number == '5' or page.goal.number == '6' or page.goal.number == '7' %}
     {%- assign goal_full = '발전 지표' -%}
   {% else %}
     {%- assign goal_full = '생활 지표' -%}
