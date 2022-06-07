@@ -2,6 +2,13 @@
 <ol class="breadcrumb">
 
   [TEST DATA] depth_level : {{ include.depth_level }} {{ page.t.general.new_test_dt }}<br>
+  
+  {% if page.goal.number == '1' %}
+    {%- assign goal_full = '경쟁력 지표' -%}
+  {% endif %}
+  
+  
+  
 
   {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
   
@@ -16,7 +23,7 @@
     {% if include.depth_level %}
     <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>  
     {% else %}
-    <li>{{ page.goal.short | escape }}  {{ page.goal.discript | escape }}</li>
+    <li>{{ goal_full | escape }} - {{ page.goal.short | escape }}</li>
     {% endif %}
 
   {% else %}
