@@ -4,7 +4,8 @@ language: ko
 permalink: /faq/
 layout: page
 ---
-
+<div id="main-content" class="container" role="main">
+ 
 ## 한글버전
 ## Table of contents
 - [How often will new data be added to this site?](#how-often-will-new-data-be-added-to-this-site)
@@ -68,3 +69,6 @@ Each of the SDG indicators are assigned to one (or more) of the following tiers:
 For more information, [see the IAEG-SDGs Tier Classification for Global SDG Indicators](https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/)
 
 [Back to top](#top)
+
+ 
+</div>
