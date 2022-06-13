@@ -5,7 +5,7 @@ permalink: /key/
 layout: page
 ---
 
-## 핵심지표
+</div></div>
 
 <div class="heading goal-banner goal-1">
     <div class="container">
@@ -20,6 +20,7 @@ layout: page
     </div>
 </div>
 
+<div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
       <h2>하위 영역</h2>
