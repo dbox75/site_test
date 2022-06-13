@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220613002752">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20220613010608">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -269,35 +269,110 @@ layout-page
     <div>
 	    <!--        <h1>Key</h1>-->
         
-            <style>
-	.contents_box { padding : 0 5%; line-height: 200%; }
-	.title { color:navy; font-size:18pt; font-weight:600;}
-	.contents { font-size:12pt; }
-	
-	.img_div { text-align: center; }
-	.img_div { line-height: 1.6em; }
-	.img_div img { width: 90%; }
-	
-   .suffle_div { width: 100%;  margin-bottom:50px;}
-   .suffle_div p { width: 100%; font-size:12pt;  }
-   .suffle_div img { width:40%; float: right; }
+            <h2 id="핵심지표">핵심지표</h2>
 
-</style>
+<div class="heading goal-banner goal-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
+                <img src="https://dbox75.github.io/site_test/assets/img/goals/v3/ko/1.png" alt="자원 - 영역 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
+            </div>
+            <div class="col-8 col-md-9 col-lg-10">
+                <h1>경쟁력 지표 - 자원 영역</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p><br /></p>
-<div class="contents_box">
-	<div>
-		<span class="title">핵심지표</span>
-		<br /><br />
-		<p class="contents">
- 		     <b>수도권 광역지표</b>는 광역 생활권인 수도권의 경쟁력과 주민들의 정주 여건개선 등 광역행정 지원을 위해 개발되었다.<br /><br />
-      수도권 광역지표는 <b>경쟁력지표, 발전지표, 생활지표</b>로 구성되어 있다.<br /><br />
-      다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 24개의 세부지표로 구성되어 있으며,<br />
-		 수도권의 발전 모습을 나타내는 발전지표는 3개 영역, 8개 하위 영역, 35개 세부지표로 구성되어 있다.<br />
-		 마지막으로 수도권 주민들의 생활상을 볼 수 있는 생활지표는 4개 영역, 11개 하위 영역, 52개 세부지표로 구성되어 있다.
-    </p>
-  </div>
- </div>
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+      <h2>하위 영역</h2>
+    </div>
+    <div class="col-md-6">
+      <h2>세부 지표</h2>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        1.1
+    </span>
+        인적 자원
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site_test/1-1-1">
+          인구성장률
+        </a>
+    </div>
+
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site_test/1-1-2">
+          고등교육 이수자 비율
+        </a>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        1.2
+    </span>
+    물적 자원
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site_test/1-2-1">
+          고속도로 연장
+        </a>
+    </div>
+    
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.2.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site_test/1-2-2">
+          인터넷 이용률
+        </a>
+    </div>
+    
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.2.3
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site_test/1-2-3">
+          가구원당 평균 방의 개수
+        </a>
+    </div>
+    
+</div>
 
         
     </div>
@@ -350,12 +425,12 @@ layout-page
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20220613002752'></script>
+<script src='/site_test/assets/js/sdg.js?v=20220613010608'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20220613002752"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20220613010608"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
