@@ -5,17 +5,11 @@ permalink: /key/
 layout: page
 ---
 
-  </div>
-</div>
-
 <div class="heading goal-banner goal-1">
     <div class="container">
         <div class="row">
-            <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
-                <img src="https://dbox75.github.io/site_test/assets/img/goals/v3/ko/1.png" alt="자원 - 영역 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
-            </div>
             <div class="col-8 col-md-9 col-lg-10">
-                <h1>경쟁력 지표 - 자원 영역</h1>
+                <h1>수도권 광역지표 - 핵심지표</h1>
             </div>
         </div>
     </div>
