@@ -589,12 +589,12 @@ body.contrast-high #zip-download-info {
   padding-top: 30px;
   padding-bottom: 30px; }
   .goal-12.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
-    border-color: #6d4f1a;
-    color: #6d4f1a; }
+    border-color: #ba3c02;
+    color: #ba3c02; }
 
 .goal-tiles #goal-12,
 .goal-tiles .goal-icon-12 {
-  background-color: #BF8B2E; }
+  background-color: #FD6925; }
 
 .goal-13 {
   padding-top: 30px;
@@ -699,7 +699,7 @@ body.contrast-high #zip-download-info {
   background-color: #1A486A; }
 
 .goal-12.goal-banner {
-  background-color: #BF8B2E; }
+  background-color: #FD6925; }
 
 .goal-13.goal-banner {
   background-color: #417D46; }
@@ -3385,7 +3385,7 @@ body.contrast-high .breadcrumb {
   padding-top: 10px;
   padding-bottom: 10px; }
   .goal-12.goal-banner {
-    background-color: #BF8B2E; }
+    background-color: #FD6925; }
 
 .goal-13 {
   padding-top: 10px;
