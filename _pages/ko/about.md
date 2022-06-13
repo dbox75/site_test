@@ -19,6 +19,7 @@ layout: page
    .suffle_div img { width:40%; float: right; }
 
 </style>
+<div id="main-content" class="container" role="main">
 <br>
 <div class="contents_box">
 	<div>
@@ -33,4 +34,4 @@ layout: page
     </p>
   </div>
  </div>
- 
+ </
