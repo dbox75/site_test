@@ -103,14 +103,12 @@ var translations = {
         ================================================== -->
 
         
-    <title>데이터 수정: 4.2.2 - 수도권 광역지표 온라인 서비스</title>
+    <title>Key - 수도권 광역지표 온라인 서비스</title>
 
 
 
         <meta name="description" content="">
         <meta property="og:description" content="">
-        
-        <meta name="robots" content="noindex, nofollow">
         
         <link rel="canonical" href="/">
 
@@ -148,7 +146,7 @@ var translations = {
 
     </head>
 <body class="language-ko
-layout-data-editor
+layout-page
 ">
 <!-- <div class="container"> -->
 
@@ -263,135 +261,48 @@ layout-data-editor
 
 
 
+<!-- _layouts/page.html //-->
+
+
+
 <div id="main-content" class="container" role="main">
-  <div class="row no-gutters">
-    <div class="col-md-12"><h1>데이터 수정: 4.2.2</h1></div>
+    <div>
+	    <!--        <h1>Key</h1>-->
+        
+            <style>
+	.contents_box { padding : 0 5%; line-height: 200%; }
+	.title { color:navy; font-size:18pt; font-weight:600;}
+	.contents { font-size:12pt; }
+	
+	.img_div { text-align: center; }
+	.img_div { line-height: 1.6em; }
+	.img_div img { width: 90%; }
+	
+   .suffle_div { width: 100%;  margin-bottom:50px;}
+   .suffle_div p { width: 100%; font-size:12pt;  }
+   .suffle_div img { width:40%; float: right; }
+
+</style>
+
+<p><br /></p>
+<div class="contents_box">
+	<div>
+		<span class="title">핵심지표</span>
+		<br /><br />
+		<p class="contents">
+ 		     <b>수도권 광역지표</b>는 광역 생활권인 수도권의 경쟁력과 주민들의 정주 여건개선 등 광역행정 지원을 위해 개발되었다.<br /><br />
+      수도권 광역지표는 <b>경쟁력지표, 발전지표, 생활지표</b>로 구성되어 있다.<br /><br />
+      다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 24개의 세부지표로 구성되어 있으며,<br />
+		 수도권의 발전 모습을 나타내는 발전지표는 3개 영역, 8개 하위 영역, 35개 세부지표로 구성되어 있다.<br />
+		 마지막으로 수도권 주민들의 생활상을 볼 수 있는 생활지표는 4개 영역, 11개 하위 영역, 52개 세부지표로 구성되어 있다.
+    </p>
   </div>
-  <div class="col-md-12 config-widgets">
-    <div class="col-md-6 data-grid-buttons">
-      <label for="add-column-name">Column name</label>
-      <input id="add-column-name" />
-      <button class="btn btn-primary btn-download" id="add-column">Add column</a>
+ </div>
+
+        
     </div>
-    <div class="col-md-6 data-download-buttons">
-      <div>
-        <button class="btn btn-primary btn-download" id="export">Download data</button>
-      </div>
-      
-      
-      
-      
-      <div>
-        <a class="btn btn-primary btn-download" target="_blank" href="https://github.com/dbox75/data_test/tree/develop/data">
-          Go to repository
-        </a>
-      </div>
-      
-    </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="editor-wrapper col-md-12">
-      <div id="editor-holder" style="height: 900px; width: 100%;" class="ag-theme-alpine"></div>
-    </div>
-  </div>
-
-  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
-  <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
-  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
-
-  <script>
-  var httpRequest;
-  var gridOptions;
-  function makeRequest() {
-    httpRequest = new XMLHttpRequest();
-
-    if (!httpRequest) {
-      alert('Giving up :( Cannot create an XMLHTTP instance');
-      return false;
-    }
-    httpRequest.onreadystatechange = displaySpreadsheet;
-    httpRequest.open('GET', 'https://dbox75.github.io/data_test/untranslated/data/4-2-2.csv');
-    httpRequest.send();
-  }
-
-  function displaySpreadsheet() {
-    if (httpRequest.readyState === XMLHttpRequest.DONE) {
-      if (httpRequest.status === 200) {
-        var csvString = httpRequest.responseText;
-        var csvData = Papa.parse(csvString, {header: true});
-        var columnDefs = [],
-            rowData = [];
-        if (csvData.data.length > 0) {
-          rowData = csvData.data;
-          columnDefs = Object.keys(rowData[0]).map(function(key) {
-            return { field: key, headerName: key };
-          });
-        }
-        var container = document.getElementById('editor-holder');
-        gridOptions = {
-          defaultColDef: {
-            editable: true,
-            resizable: true,
-            minWidth: 100,
-            flex: 1,
-          },
-          columnDefs: columnDefs,
-          rowData: rowData,
-          undoRedoCellEditing: true,
-          undoRedoCellEditingLimit: 5,
-          enableCellChangeFlash: true,
-          enterMovesDownAfterEdit: true,
-          suppressDragLeaveHidesColumns: true,
-          applyColumnDefOrder: true,
-          onCellValueChanged: function(info) {
-            if (info.rowIndex + 1 === this.api.getDisplayedRowCount()) {
-              this.api.applyTransaction({
-                add: [{}],
-              });
-            }
-          }
-        };
-
-        new agGrid.Grid(container, gridOptions);
-      } else {
-        alert('There was a problem when loading the data. Please edit the data in some other way (such as in Github).');
-      }
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    makeRequest();
-  });
-
-  document.getElementById('export').onclick = function() {
-    gridOptions.api.stopEditing();
-    gridOptions.api.exportDataAsCsv({
-      fileName: 'indicator_4-2-2',
-    });
-  }
-
-  document.getElementById('add-column').onclick = function() {
-    var columnName = document.getElementById('add-column-name').value;
-    if (columnName && columnName !== '') {
-      var columnDefs = gridOptions.columnDefs;
-      var newColumn = { field: columnName, headerName: columnName };
-      if (columnDefs.length > 1) {
-        // Put it second-to-last if possible.
-        columnDefs.splice(columnDefs.length - 1, 0, newColumn);
-      }
-      else {
-        // Otherwise just last.
-        columnDefs.push(newColumn);
-      }
-      gridOptions.api.setColumnDefs(columnDefs);
-    }
-    else {
-      alert('Please enter a column name first and then try again.');
-    }
-  }
-  </script>
 </div>
+
 <!-- "_includes/footer.html" 시작 //-->
 
 <footer role="contentinfo">
@@ -522,3 +433,4 @@ $(function() {
 </html>
 
 <!-- "_includes/footer.html" 끝 //-->
+
