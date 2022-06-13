@@ -5,8 +5,6 @@ permalink: /faq/
 layout: page
 ---
 
-<div id="main-content" class="container" role="main">
- 
 ## 한글버전
 ## Table of contents
 - [How often will new data be added to this site?](#how-often-will-new-data-be-added-to-this-site)
@@ -72,4 +70,4 @@ For more information, [see the IAEG-SDGs Tier Classification for Global SDG Indi
 [Back to top](#top)
 
  
-</div>
+
