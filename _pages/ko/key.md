@@ -5,7 +5,8 @@ permalink: /key/
 layout: page
 ---
 
-</div></div>
+  </div>
+</div>
 
 <div class="heading goal-banner goal-1">
     <div class="container">
@@ -109,4 +110,5 @@ layout: page
         </a>
     </div>
     
+</div>
 </div>
