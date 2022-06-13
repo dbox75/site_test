@@ -5,7 +5,7 @@ permalink: /key/
 layout: page
 ---
 
-<div class="heading goal-banner goal-1">
+<div class="heading goal-banner goal-12">
     <div class="container">
         <div class="row">
             <div class="col-8 col-md-9 col-lg-10">
