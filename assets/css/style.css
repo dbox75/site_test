@@ -4004,3 +4004,7 @@ footer {
   .add {
     margin-right: 80px;
     margin-left: 80px; } }
+@media (min-width: 992px) {
+  .col-key {
+    margin-left: 20%;
+    width: 20%; } }
