@@ -4008,3 +4008,6 @@ footer {
   .col-key {
     margin-left: 20%;
     width: 60%; } }
+.col-key-x {
+  float: left;
+  width: 33.33333333%; }
