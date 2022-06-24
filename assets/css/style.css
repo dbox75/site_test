@@ -4008,5 +4008,5 @@ footer {
   .col-key {
     margin-left: 20%;
     width: 60%; } }
-#main-content .goal-tiles .no-gutters img:not(#goal-ttl):hover {
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.6); }
+#main-content .goal-tiles .no-gutters .goal-titles img:hover {
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.3); }
