@@ -6,7 +6,7 @@ layout: page
 ---
 
 <style>
-.title { color:navy; font-size:18pt; font-weight:600;}
+.title { color:navy; font-size:20pt; font-weight:600;}
 </style>
 
 <div class="heading goal-banner goal-12">
