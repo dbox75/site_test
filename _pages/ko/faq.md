@@ -25,7 +25,7 @@ layout: page
     <div class="container">
         <div class="row">
             <div class="col-8 col-md-9 col-lg-10">
-                <h1>수도권 광역지표 소개</h1>
+                <h1>자주하는 질문(FAQ)</h1>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@ layout: page
 <div id="main-content" class="container" role="main">
 
 <div class="contents_box">
-    <span class="title">자주하는 질문(FAQ)</span>
+    <!-- <span class="title">자주하는 질문(FAQ)</span> -->
 	<br /><br />
 	<p class="contents">
 <b> <span style="font-size: 2rem">Q. 수도권 광역지표란 무엇인가요?</span>  </b> <br />
