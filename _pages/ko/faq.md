@@ -1,13 +1,12 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: FAQ
 language: ko
 permalink: /faq/
 layout: page
 ---
 
-## 한글버전
-## Table of contents
-- [How often will new data be added to this site?](#how-often-will-new-data-be-added-to-this-site)
+## 목 록
+- [수도권 광역지표가 뭔가요?](#how-often-will-new-data-be-added-to-this-site)
 
 - [How do I suggest new or different data sources?](#how-do-i-suggest-new-or-different-data-sources)
 
