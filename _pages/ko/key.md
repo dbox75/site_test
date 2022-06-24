@@ -1,5 +1,5 @@
 ---
-title: Key
+title: 핵심지표
 language: ko
 permalink: /key/
 layout: page
