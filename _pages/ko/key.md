@@ -5,6 +5,10 @@ permalink: /key/
 layout: page
 ---
 
+<style>
+.title { color:navy; font-size:18pt; font-weight:600;}
+</style>
+
 <div class="heading goal-banner goal-12">
     <div class="container">
         <div class="row">
@@ -19,7 +23,7 @@ layout: page
 </div>
 
 <div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
-    <h2># 발전지표</h2>
+    <span class="title"># 발전지표</span>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
