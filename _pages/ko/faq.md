@@ -5,6 +5,22 @@ permalink: /faq/
 layout: page
 ---
 
+<style>
+	
+	.contents_box { padding : 0 5%; line-height: 200%;}
+	.title { color:navy; font-size:18pt; font-weight:600;}
+	.contents { font-size:12pt; }
+	
+	.img_div { text-align: center; }
+	.img_div { line-height: 1.6em; }
+	.img_div img { width: 90%; }
+	
+   .suffle_div { width: 100%;  margin-bottom:50px;}
+   .suffle_div p { width: 100%; font-size:12pt;  }
+   .suffle_div img { width:40%; float: right; }
+
+</style>
+
 <div class="heading goal-banner goal-12">
     <div class="container">
         <div class="row">
@@ -16,70 +32,18 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
 
+<div class="contents_box">
+    <span class="title">자주하는 질문(FAQ)</span>
+	<br /><br />
+	<p class="contents">
+<b> <span style="font-size: 2rem">Q. 수도권 광역지표란 무엇인가요?</span>  </b> <br />
+A. 수도권 광역지표는 광역 생활권인 수도권의 경쟁력과 주민들의 정주 여건개선 등 광역행정 지원을 위해 개발되었습니다.
+<br /><br />
 
+<b> <span style="font-size: 2rem">Q. 경쟁력 지표란 무엇인가요?</span>  </b> <br />
+A. 다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 24개의 세부지표로 구성되어 있습니다. 
+<br /><br />
+	</p>
+</div>
 
-## 목 록
-- [수도권 광역지표가 뭔가요?](#수도권-광역지표가-뭔가요)
-
-- [How do I suggest new or different data sources?](#how-do-i-suggest-new-or-different-data-sources)
-
-- [What are you doing to fill data gaps?](#what-are-you-doing-to-fill-data-gaps)
-
-- [What does the reporting status mean?](#what-does-the-reporting-status-mean)
-
-- [Can other countries copy this website?](#can-other-countries-copy-this-website)
-
-- [How accessible is this website?](#how-accessible-is-this-website)
-
-- [What browsers can I use to view this website?](#what-browsers-can-i-use-to-view-this-website)
-
-- [What do each of the three tiers mean?](#what-do-each-of-the-three-tiers-mean)
-
-## 수도권 광역지표가 뭔가요?
-수도권 광역지표란...   입니다.
-
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
-
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
-
-This means we need to look for new data sources, link existing ones, or model data.
-
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
-
-- **Reported (black):** As a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-
-- **Statistics in progress (grey):** We have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-
-- **Exploring data sources (white):** We are still looking for a suitable data source for this indicator.
-
-- **Not applicable (striped):** This indicator is not applicable in the national context.
-
-
-## Can other countries copy this website?
-Yes. See the [Open SDG Quick Start guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) for technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
-
-## How accessible is this website?
-Open SDG aims to be as accessible and usable as possible for every user and works towards meeting AA level of [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
-
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers.
-
-## What do each of the three tiers mean?
-Each of the SDG indicators are assigned to one (or more) of the following tiers:
- - **Tier 1:** Indicator is conceptually clear, has an internationally established methodology and standards are available, and data are regularly produced by countries for at least 50 per cent of countries and of the population in every region where the indicator is relevant.
-
- - **Tier 2:** Indicator is conceptually clear, has an internationally established methodology and standards are available, but data are not regularly produced by countries.
-
- - **Tier 3:** No internationally established methodology or standards are yet available for the indicator, but methodology/standards are being (or will be) developed or tested (As of the 51st session of the UN Statistical Commission, the global indicator framework does not contain any Tier III indicators)
-
-**As of 28 December 2020:** The updated tier classification contains **130 Tier I indicators**, **97 Tier II indicators** and **4 indicators that have multiple tiers** (different components of the indicator are classified into different tiers).
-
-For more information, [see the IAEG-SDGs Tier Classification for Global SDG Indicators](https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/)
-
-[Back to top](#top)
-
- 
 </div>
