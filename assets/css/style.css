@@ -4011,3 +4011,6 @@ footer {
 .col-key-x {
   float: left;
   width: 33.33333333%; }
+
+#main-content .goal-tiles-h .no-gutters img {
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.3); }
