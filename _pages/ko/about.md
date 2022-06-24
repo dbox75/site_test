@@ -1,5 +1,5 @@
 ---
-title: About
+title: 수도권 광역지표 소개
 language: ko
 permalink: /about/
 layout: page
