@@ -20,6 +20,17 @@ layout: page
 
 </style>
 
+<div class="heading goal-banner goal-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-md-9 col-lg-10">
+                <h1>수도권 광역지표 소개</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main-content" class="container" role="main">
+
 <div class="contents_box">
 	<div>
 		<span class="title">수도권 광역지표 소개</span>
@@ -33,4 +44,4 @@ layout: page
     </p>
   </div>
  </div>
-
+</div>
