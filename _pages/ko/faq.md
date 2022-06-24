@@ -5,8 +5,21 @@ permalink: /faq/
 layout: page
 ---
 
+<div class="heading goal-banner goal-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-md-9 col-lg-10">
+                <h1>수도권 광역지표 소개</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main-content" class="container" role="main">
+
+
+
 ## 목 록
-- [수도권 광역지표가 뭔가요?](#how-often-will-new-data-be-added-to-this-site)
+- [수도권 광역지표가 뭔가요?](#수도권-광역지표가-뭔가요)
 
 - [How do I suggest new or different data sources?](#how-do-i-suggest-new-or-different-data-sources)
 
@@ -22,8 +35,8 @@ layout: page
 
 - [What do each of the three tiers mean?](#what-do-each-of-the-three-tiers-mean)
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible.
+## 수도권 광역지표가 뭔가요?
+수도권 광역지표란...   입니다.
 
 ## How do I suggest new or different data sources?
 If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
@@ -69,4 +82,4 @@ For more information, [see the IAEG-SDGs Tier Classification for Global SDG Indi
 [Back to top](#top)
 
  
-
+</div>
