@@ -7,7 +7,7 @@ layout: default
 {% assign translation_key = content | strip | strip_html %}
 {% assign translated_content = translation_key | t %}
 
-{% if page.permalink != '/key/' %}
+{% if page.permalink != '/key/' or page.permalink != '/about/'%}
 <div id="main-content" class="container" role="main">
 {% endif %}	
 
@@ -18,7 +18,7 @@ layout: default
             {{ content }}
         {% endif %}
 
-{% if page.permalink != '/key/' %}
+{% if page.permalink != '/key/' or page.permalink != '/about/'%}
 </div>
 {% endif %}
 
