@@ -20,7 +20,7 @@ layout: page
 
 </style>
 
-<div class="heading goal-banner goal-12">
+<div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
             <div class="col-8 col-md-9 col-lg-10">
