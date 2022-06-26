@@ -600,23 +600,23 @@ body.contrast-high #zip-download-info {
   padding-top: 30px;
   padding-bottom: 30px; }
   .goal-13.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
-    border-color: #1e3a20;
-    color: #1e3a20; }
+    border-color: #256679;
+    color: #256679; }
 
 .goal-tiles #goal-13,
 .goal-tiles .goal-icon-13 {
-  background-color: #417D46; }
+  background-color: #3FA7C5; }
 
 .goal-14 {
   padding-top: 30px;
   padding-bottom: 30px; }
   .goal-14.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
-    border-color: #055277;
-    color: #055277; }
+    border-color: #076877;
+    color: #076877; }
 
 .goal-tiles #goal-14,
 .goal-tiles .goal-icon-14 {
-  background-color: #0A96D8; }
+  background-color: #0DBDD7; }
 
 .goal-15 {
   padding-top: 30px;
@@ -702,10 +702,10 @@ body.contrast-high #zip-download-info {
   background-color: #FD6925; }
 
 .goal-13.goal-banner {
-  background-color: #417D46; }
+  background-color: #3FA7C5; }
 
 .goal-14.goal-banner {
-  background-color: #0A96D8; }
+  background-color: #0DBDD7; }
 
 .goal-15.goal-banner {
   background-color: #57BE2F; }
@@ -3391,13 +3391,13 @@ body.contrast-high .breadcrumb {
   padding-top: 10px;
   padding-bottom: 10px; }
   .goal-13.goal-banner {
-    background-color: #417D46; }
+    background-color: #3FA7C5; }
 
 .goal-14 {
   padding-top: 10px;
   padding-bottom: 10px; }
   .goal-14.goal-banner {
-    background-color: #0A96D8; }
+    background-color: #0DBDD7; }
 
 .goal-15 {
   padding-top: 10px;
