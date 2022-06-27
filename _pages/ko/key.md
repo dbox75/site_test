@@ -9,10 +9,10 @@ layout: page
 .title { color:navy; font-size:20pt; font-weight:600;}
 </style>
 
-<div class="heading goal-banner goal-12">
+<div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
-            <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
+            <div class="col-8 col-md-9 col-lg-2 goal-tiles">
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" class="goal-icon-image goal-icon-image-" />
             </div>
             <div class="col-8 col-md-9 col-lg-10">
