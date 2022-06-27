@@ -17,7 +17,6 @@ layout: page
    .suffle_div { width: 100%;  margin-bottom:50px;}
    .suffle_div p { width: 100%; font-size:12pt;  }
    .suffle_div img { width:40%; float: right; }
-   .sttl { margin-left:30px; float:left; }
 </style>
 
 <div class="heading goal-banner goal-13">
