@@ -17,13 +17,16 @@ layout: page
    .suffle_div { width: 100%;  margin-bottom:50px;}
    .suffle_div p { width: 100%; font-size:12pt;  }
    .suffle_div img { width:40%; float: right; }
-
+   .sttl { margin-left:30px; float:left; }
 </style>
 
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
-            <div class="col-8 col-md-9 col-lg-10">
+            <div class="sttl">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
+            </div>
+            <div class="sttl">
                 <h1>수도권 광역지표 소개</h1>
             </div>
         </div>
