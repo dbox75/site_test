@@ -21,10 +21,13 @@ layout: page
 
 </style>
 
-<div class="heading goal-banner goal-12">
+<div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
-            <div class="col-8 col-md-9 col-lg-10">
+            <div class="sttl">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
+            </div>
+            <div class="sttl">
                 <h1>자주하는 질문(FAQ)</h1>
             </div>
         </div>
