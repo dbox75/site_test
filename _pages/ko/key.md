@@ -7,15 +7,16 @@ layout: page
 
 <style>
 .title { color:navy; font-size:20pt; font-weight:600;}
+.sttl { margin-left:10px; float:left; }
 </style>
 
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
-            <div class="col-xs-2 col-md-2 col-lg-2 goal-tiles">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" class="goal-icon-image goal-icon-image-" />
+            <div class="sttl">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
             </div>
-            <div class="col-8 col-md-9 col-lg-10">
+            <div class="sttl">
                 <h1>수도권 광역지표 - 핵심지표</h1>
             </div>
         </div>
