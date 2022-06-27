@@ -20,15 +20,15 @@
 <div id="main-content" class="container" role="main">
   
 <br>
-<h1 style="text-align: center;font-family: 'Nanum Gothic';font-size:30px;font-weight:bolder;line-height:64px">
+<h3 style="text-align: left;font-family: 'Nanum Gothic';font-size:30px;font-weight:bolder;line-height:64px">
   {{ page.t.goal.description }}
 </h1><br><br>
   
     <div class="goal-tiles add">
         <div class="row no-gutters">
-            <div class="col-xs-4 col-md-13 goal-tile">
+            <div class="col-xs-4 col-md-13 goal-titles">
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/i01.png" id="goal-18" alt="경쟁력 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
-            </div>   
+            </div> 
             {% for goal in page.goals %}
             <div class="col-xs-4 col-md-13 goal-tile">
                 <a href="{{ goal.url }}">
@@ -40,7 +40,7 @@
             {% if goal.number == "4" %}
         </div>
         <div class="row no-gutters">
-            <div class="col-xs-4 col-md-13 goal-tile">
+            <div class="col-xs-4 col-md-13 goal-titles">
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/i02.png" id="goal-18" alt="발전 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div>    
             {% endif %}
@@ -48,7 +48,7 @@
             {% if goal.number == "7" %}
         </div>
         <div class="row no-gutters">
-            <div class="col-xs-4 col-md-13 goal-tile">
+            <div class="col-xs-4 col-md-13 goal-titles">
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/i03.png" id="goal-18" alt="생활 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div>    
             {% endif %}          
