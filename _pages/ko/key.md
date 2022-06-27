@@ -12,9 +12,9 @@ layout: page
 <div class="heading goal-banner goal-12">
     <div class="container">
         <div class="row">
-            <!--<div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">-->
-            <!--    <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/9.png" alt="핵심지표" id="핵심지표" class="goal-icon-image goal-icon-image-" />-->
-            <!--</div>-->
+            <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" class="goal-icon-image goal-icon-image-" />
+            </div>
             <div class="col-8 col-md-9 col-lg-10">
                 <h1>수도권 광역지표 - 핵심지표</h1>
             </div>
