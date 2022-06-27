@@ -7,7 +7,6 @@ layout: page
 
 <style>
 .title { color:navy; font-size:20pt; font-weight:600;}
-.sttl { margin-left:30px; float:left; }
 </style>
 
 <div class="heading goal-banner goal-13">
