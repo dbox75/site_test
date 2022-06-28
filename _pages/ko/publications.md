@@ -29,7 +29,7 @@ layout: page
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf" target="_blank">
             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-2022.png" alt="1"/>
          </a>
       </div>
@@ -40,7 +40,7 @@ layout: page
    
    <div class="item">
       <div>
-          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
+          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf" target="_blank">
             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="2"/> 
           </a>
       </div>
@@ -51,7 +51,7 @@ layout: page
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf" target="_blank">
              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-2021.png" alt="3"/>    
           </a>
       </div>
@@ -61,7 +61,7 @@ layout: page
    </div>
    <div class="item">
       <div>
-          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
+          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf" target="_blank">
              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="4"/>
          </a>
       </div>
