@@ -486,3 +486,15 @@ footer {
 .suffle_div { width: 100%;  margin-bottom:50px;}
 .suffle_div p { width: 100%; font-size:12pt;  }
 .suffle_div img { width:40%; float: right; }
+
+@media ( min-width: 768px ){
+      .top_div { display: flex; justify-content: center; text-align : center; width:99%; border:0; font-weight:bold;}
+      .top_div .item { display:table-cell; width:250px;}
+      .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
+}
+
+@media ( max-width: 767px ){
+         .top_div { text-align : center; width:100%; border:0; font-weight:bold;}
+         .top_div .item { display:inline-block; width:400px;}
+         .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
+}
