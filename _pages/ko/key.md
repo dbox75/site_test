@@ -108,6 +108,97 @@ layout: page
           가구원당 평균 방의 개수
         </a>
     </div>
+
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>하위 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>세부 지표</h2>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        5.1
+    </span>
+    재정
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.1.1
+            <span class="status notstarted">
+                <span class="status-inner">제공예정</span>
+            </span>
+        </span>
+        <a href="/site_test/5-1-1">
+            재정자립도
+        </a>
+    </div>
+    
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.1.2
+            <span class="status notstarted">
+                <span class="status-inner">제공예정</span>
+            </span>
+        </span>
+        <a href="/site_test/5-1-2">
+            주민 1인당 자체수입액
+        </a>
+    </div>
+    
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.1.3
+            <span class="status notstarted">
+                <span class="status-inner">제공예정</span>
+            </span>
+        </span>
+        <a href="/site_test/5-1-3">
+            지자체 자산대비 부채 비율
+        </a>
+    </div>
+</div>
+  
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        5.2
+    </span>
+    주거/교통
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.2.1
+            <span class="status notstarted">
+                <span class="status-inner">제공예정</span>
+            </span>
+        </span>
+        <a href="/site_test/5-2-1">
+            주거환경만족도
+        </a>
+    </div>
+    
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.2.2
+            <span class="status notstarted">
+                <span class="status-inner">제공예정</span>
+            </span>
+        </span>
+        <a href="/site_test/5-2-2">
+            대중교통접근성
+        </a>
+    </div>
+</div>        
+    
     
 </div>
 </div>
