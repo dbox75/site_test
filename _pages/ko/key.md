@@ -19,11 +19,12 @@ layout: page
 </div>
 
 <div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
+<br>
 <span class="title2"># 경쟁력지표</span>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>하위 영역</h2>
+      <h2>자원 영역</h2>
     </div>
     <div class="col-md-6">
       <h2>세부 지표</h2>
@@ -110,11 +111,12 @@ layout: page
     </div>
 </div>
 
+<br>
 <span class="title2"># 발전지표</span>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-        <h2>하위 영역</h2>
+        <h2>기초 역량과 여건 영역</h2>
     </div>
     <div class="col-md-6">
         <h2>세부 지표</h2>
