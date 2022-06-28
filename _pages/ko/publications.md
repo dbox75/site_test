@@ -20,7 +20,7 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
-	<h1>발간(참고자료) 목록</h1>
+	<span class="title2">발간(참고자료) 목록</span>
     </div>
 		
 	
