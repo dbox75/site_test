@@ -19,7 +19,7 @@ layout: page
 </div>
 
 <div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
-    <span class="title2"># 발전지표</span>
+<span class="title2"># 경쟁력지표</span>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -108,7 +108,9 @@ layout: page
           가구원당 평균 방의 개수
         </a>
     </div>
+</div>
 
+<span class="title2"># 발전지표</span>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -200,5 +202,4 @@ layout: page
 </div>        
     
     
-</div>
 </div>
