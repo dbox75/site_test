@@ -584,11 +584,11 @@ layout: page
       </ul>
    </div>   
 </div>
-</div>	
 
-### 주요 글로벌 웹사이트
 
-－**[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록
+<h2>### 주요 글로벌 웹사이트</h2>
+
+<span class="title">－**[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록</span>
 
 －**[UN World Data Forum](https://unstats.un.org/unsd/undataforum/)** : 지속가능발전 데이터 및 통계 개선을 목표로 한 세계 최대 규모의 협력 플랫폼
 
@@ -618,7 +618,7 @@ layout: page
 －**[멕시코](http://agenda2030.mx/#/home): http://agenda2030.mx/#/home**
  <br>	
 
-
+</div>	
 
 
 
