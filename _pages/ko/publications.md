@@ -96,14 +96,14 @@ layout: page
          <th>발간년도</th>
       </tr>
      <tr class="content"><!-- 4 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2022</td>
       </tr>
 
       
       <tr class="content"><!-- 3 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2022</td>
       </tr>
