@@ -5,6 +5,10 @@ permalink: /publications/
 layout: page
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://dbox75.github.io/site_test/assets/js/publications.js"></script>
+<link rel="stylesheet" href="https://dbox75.github.io/site_test/assets/css/publications.css">
+
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
