@@ -1,0 +1,82 @@
+@media ( min-width: 768px ){
+   /*  공통 */
+      body { padding:0; margin:0; }
+      a { text-decoration:none; } 
+   /*    상단 제목검색 및 버튼 CSS */
+      input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; }
+      input[type=button]:visited { background:#5D5D5D; }
+      
+      .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
+      
+      .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
+      .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
+      .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+       
+       .report_div { display : inline-block; width : 100%; height: 40px; text-align:center; margin-bottom: 20px;}
+       .report1_btn, .report2_btn, .report3_btn { font-size:10pt; height: 40px; outline : none; background : gray; border : 0px; color : #ffffff; margin-right : 10px; border-radius:10px;}
+       
+       
+   /*  하단 게시판 CSS  */
+      .board_form { margin : 20px 5% 0;}
+      .board_form .board_table { width : 100%; border-collapse : collapse; border-bottom : 1px solid black; }
+      .board_form .board_table .board_title { border-top : 2px solid black; border-bottom : 1px solid black;}
+      .board_form .board_table tr:not(:first-child) { border-top : 1px dotted black; }
+      .board_form .board_table tr:last-child { border-bottom : 1px solid black; }
+      .board_form .board_table tr { height : 50px;}
+      .board_form .board_table .board_title th { text-align : center; }
+      .board_form .board_table tr td:nth-child(1) { padding-left : 10px; }
+      .board_form .board_table tr td:nth-child(2), td:nth-child(3) { text-align : center; }
+      
+   /*  하단 페이징 CSS  */   
+      .board_form .page_form { text-align : center; }
+      .board_form .page_form .pagination { list-style: none; font-size:14pt; }
+      .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 10px 0; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 25px; }
+      .board_form .page_form .pagination li:hover { background:#6799FF; transition : all ease 0.5s 0s; color : #ffffff; }
+      
+      .on { background:#6799FF; color:#ffffff; }
+      
+      .top_div { display: flex; justify-content: center; text-align : center; width:99%; border:0; font-weight:bold;}
+      .top_div .item { display:table-cell; width:250px;}
+      .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
+}
+         
+   @media ( max-width: 767px ){
+      /*  공통 */
+         body { padding:0; margin:0; }
+      /*    상단 제목검색 및 버튼 CSS */
+         input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; font-size:13pt;}
+         input[type=button]:visited { background:#5D5D5D; }
+         
+         .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
+         
+         .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
+         .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
+         .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+          
+          .report_div { display : inline-block; width: 100%; text-align:center; margin-bottom: 20px;}
+          .report1_btn, .report2_btn, .report3_btn { display: block; width: 100%; height: 40px; font-size:11pt; outline : none; background : gray; border : 0px; color : #ffffff;}
+          
+          
+      /*  하단 게시판 CSS  */
+         .board_form { margin : 20px 5% 0;}
+         .board_form .board_table { width : 100%; border-collapse : collapse; border-bottom : 1px solid black; }
+         .board_form .board_table .board_title { border-top : 2px solid black; border-bottom : 1px solid black;}
+         .board_form .board_table tr:not(:first-child) { border-top : 1px dotted black; }
+         .board_form .board_table tr:last-child { border-bottom : 1px solid black; }
+         .board_form .board_table tr { height : 50px;}
+         .board_form .board_table .board_title th { text-align : center; }
+         .board_form .board_table tr td:nth-child(1) { padding-left : 10px; }
+         .board_form .board_table tr td:nth-child(2), td:nth-child(3) { text-align : center; }
+         
+      /*  하단 페이징 CSS  */   
+         .board_form .page_form { text-align : center; }
+         .board_form .page_form .pagination { list-style: none; font-size:14pt; }
+         .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 10px 0; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 25px; }
+         .board_form .page_form .pagination li:hover { background:#6799FF; transition : all ease 0.5s 0s; color : #ffffff; }
+         
+         .on { background:#6799FF; color:#ffffff; }
+         
+         .top_div { text-align : center; width:100%; border:0; font-weight:bold;}
+         .top_div .item { display:inline-block; width:400px;}
+         .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
+   }
