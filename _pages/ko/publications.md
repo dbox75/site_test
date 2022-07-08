@@ -109,115 +109,115 @@ layout: page
       </tr>
       
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">The Sustainable Development Goals Report 2021</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">The Sustainable Development Goals Report 2021</a></td>
          <td class="report3">United Nations</td>
          <td>2021</td>
       </tr>
       
         <tr class="content"><!--1 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press1.pdf">[보도자료] 한국 SDGs 데이터 플랫폼 영문 서비스 개시</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press1.pdf">[보도자료] 한국 SDGs 데이터 플랫폼 영문 서비스 개시</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press2.pdf">[Press Release] KOSTAT launches the Korean SDGs Data Platform</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press2.pdf">[Press Release] KOSTAT launches the Korean SDGs Data Platform</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 3 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 4 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">SDGs in the ROK Progress Report 2021</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">SDGs in the ROK Progress Report 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 5 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs 지표 톺아보기</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs 지표 톺아보기</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2020</td>
       </tr>
       
       <tr class="content"><!-- 6 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">세분화된 데이터 생산을 위한 다양한 접근법 탐색-장애,도시,교통 부문</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">세분화된 데이터 생산을 위한 다양한 접근법 탐색-장애,도시,교통 부문</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2020</td>
       </tr>
       <tr class="content"><!-- 7 -->
-         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">The Sustainable Development Goals Report 2020</a></td>
+         <td><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">The Sustainable Development Goals Report 2020</a></td>
          <td class="report3">United Nations</td>
          <td>2020</td>
       </tr>
 
       <tr class="content"><!-- 8 -->
-         <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">Asia and the Pacific SDG Progress Report 2020</a></td>
+         <td><a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">Asia and the Pacific SDG Progress Report 2020</a></td>
          <td class="report3">UN ESCAP</td>
          <td>2020</td>
       </tr>      
       
       <tr class="content"><!-- 9 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 10 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">SDGs in the ROK Progress Report 2019</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">SDGs in the ROK Progress Report 2019</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 11 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
          <td class="report2">환경부 지속가능발전위원회</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 12 -->
-         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/kUBzCt7Rs5swF6lB10Zg5c5AFRroz2_1573104458_2.pdf">포용성 증진을 위한 교육과 도시</a></td>
+         <td><a href="https://www.unesco.or.kr/assets/data/report/kUBzCt7Rs5swF6lB10Zg5c5AFRroz2_1573104458_2.pdf">포용성 증진을 위한 교육과 도시</a></td>
          <td class="report2">유네스코한국위원회</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 13 -->
-         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/JPZCFQ3y82b98Bm5tkJgwIstZ3HneT_1573104541_2.pdf">SDG4-교육2030 포용성과 교육에 관한 연구 보고서</a></td>
+         <td><a href="https://www.unesco.or.kr/assets/data/report/JPZCFQ3y82b98Bm5tkJgwIstZ3HneT_1573104541_2.pdf">SDG4-교육2030 포용성과 교육에 관한 연구 보고서</a></td>
          <td class="report2">유네스코한국위원회, 한국교육개발원</td>
          <td>2019</td>
       </tr>
       
       <tr class="content"><!-- 14 -->
-         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_2.pdf">한국의 SDG4 이행 현황 연구</a></td>
+         <td><a href="https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_2.pdf">한국의 SDG4 이행 현황 연구</a></td>
          <td class="report2">한국교육개발원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 15 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/49.pdf">글로벌 여성의제 국내이행 점검</a></td>
+         <td><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/49.pdf">글로벌 여성의제 국내이행 점검</a></td>
          <td class="report2">한국여성정책연구원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 16 -->
-         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/005/028/%ec%a7%80%ec%86%8d%ea%b0%80%eb%8a%a5%eb%b0%9c%ec%a0%84%ea%b3%bc%ec%97%90%eb%84%88%ec%a7%80%ec%82%b0%ec%97%85%ec%a0%84%ed%99%98%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94%ec%a0%95%ec%b1%85%eb%aa%a9%ed%91%9c1.5%eb%8f%84%eb%8c%80%ec%9d%91%ec%9d%84%ec%a4%91%ec%8b%ac%ec%9c%bc%eb%a1%9c_%ec%9d%b4%ec%b0%bd%ed%9b%88.pdf">지속가능발전과 에너지·산업전환 : 기후변화 정책목표 1.5℃ 대응을 중심으로</a></td>
+         <td><a href="https://library.kei.re.kr:444/dmme/img/001/005/028/%ec%a7%80%ec%86%8d%ea%b0%80%eb%8a%a5%eb%b0%9c%ec%a0%84%ea%b3%bc%ec%97%90%eb%84%88%ec%a7%80%ec%82%b0%ec%97%85%ec%a0%84%ed%99%98%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94%ec%a0%95%ec%b1%85%eb%aa%a9%ed%91%9c1.5%eb%8f%84%eb%8c%80%ec%9d%91%ec%9d%84%ec%a4%91%ec%8b%ac%ec%9c%bc%eb%a1%9c_%ec%9d%b4%ec%b0%bd%ed%9b%88.pdf">지속가능발전과 에너지·산업전환 : 기후변화 정책목표 1.5℃ 대응을 중심으로</a></td>
          <td class="report2">한국환경정책평가연구원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 17 -->
-         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/Tiop5H5KP4p8xfZ65chbYUviB6h3Bg_1572326682_2.pdf">우리의 지속가능한 해양</a></td>
+         <td><a href="https://www.unesco.or.kr/assets/data/report/Tiop5H5KP4p8xfZ65chbYUviB6h3Bg_1572326682_2.pdf">우리의 지속가능한 해양</a></td>
          <td class="report2">유네스코한국위원회</td>
          <td>2019</td>
       </tr>
 
 
       <tr class="content"><!-- 18 -->
-         <td class="title"><a href="http://know.nifos.go.kr/book/search/DetailView.ax?&cid=173483">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
+         <td><a href="http://know.nifos.go.kr/book/search/DetailView.ax?&cid=173483">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
          <td class="report2">국립산림과학원</td>
          <td>2019</td>
       </tr>
@@ -584,6 +584,7 @@ layout: page
       </ul>
    </div>   
 </div>
+</div>	
 
 ### 주요 글로벌 웹사이트
 
@@ -620,4 +621,4 @@ layout: page
 
 
 
-</div>
+
