@@ -5,10 +5,6 @@ permalink: /publications/
 layout: page
 ---
 
-<style>
-	.contents_box { padding : 0 5%; line-height: 200%; }
-</style>
-
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
