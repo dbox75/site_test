@@ -129,7 +129,8 @@ frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://dbox75.github.io/site_test/assets/img/goals/v4'
+#goal_image_base: 'https://dbox75.github.io/site_test/assets/img/goals/v4'
+goal_image_base: 'https://dbox75.github.io/site_test/assets/img/goals/v6'
 goal_image_extension: ''
 goals_page:
   title: 수도권 광역지표 온라인 서비스
