@@ -3842,6 +3842,9 @@ footer {
   overflow-y: auto !important; }
 
 @media (min-width: 992px) {
+  .col-md-9 {
+    width: 75%; }
+
   .col-md-13 {
     width: 20%; }
 
