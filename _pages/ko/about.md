@@ -29,8 +29,17 @@ layout: page
 			우리나라 최대 대도시권이자 광역 생활권인 수도권의 정책수립 기준설정, 정책시행 효과측정을 위한 과학적 지원 및 <br>
 			정책평가에 필요한 모니터링 기준을 제시하여 수도권의 경쟁력과 주민들의 정주 여건 개선 등<br>
 			수요자 맞춤형 정책지원을 위한 데이터 기반 마련을 목적으로 개발되었다.<br><br>
-			
-			
+    </p>
+
+  </div>
+ </div>
+
+<div class="contents_box">
+	<div style="margin-top: 30px;">
+		<span class="title">수도권 광역지표란?</span>
+		<br><br>
+		
+		<p class="contents">
 			
 			<img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
 			<br>
