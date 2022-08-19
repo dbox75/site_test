@@ -31,17 +31,18 @@ layout: page
 			수요자 맞춤형 정책지원을 위한 데이터 기반 마련을 목적으로 개발되었다.<br><br>
     </p>
 
-  </div>
- </div>
-
 <div class="contents_box">
 	<div style="margin-top: 30px;">
-		<span class="title">수도권 광역지표란?</span>
+		<span class="title">수도권 광역지표란?</span>		
+  </div>
+ </div>
+			<img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
+
 		<br><br>
-		
+<div class="contents_box">
 		<p class="contents">
 			
-			<img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
+
 			<br>
       수도권 광역지표는 <b>경쟁력지표, 발전지표, 생활지표</b>로 구성되어 있다.<br><br>
       다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 24개의 세부지표로 구성되어 있으며,<br>
