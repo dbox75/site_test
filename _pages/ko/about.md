@@ -22,7 +22,7 @@ layout: page
 <div class="contents_box">
 	<div>
 		<br>
-		<span class="title">수도권 광역지표란?</span>
+		<span class="title" style="margin-top: 15px;">수도권 광역지표란?</span>
 		<br><br>
 		
 		<p class="contents">
