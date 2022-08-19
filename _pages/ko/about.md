@@ -30,7 +30,12 @@ layout: page
 			정책평가에 필요한 모니터링 기준을 제시하여 수도권의 경쟁력과 주민들의 정주 여건 개선 등<br>
 			수요자 맞춤형 정책지원을 위한 데이터 기반 마련을 목적으로 개발되었다.<br><br>
     </p>
-
+    <img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
+  </div>
+ </div>	
+		
+		
+		
 <div class="contents_box">
 	<div style="margin-top: 30px;">
 		<span class="title">수도권 광역지표란?</span>		
@@ -49,7 +54,5 @@ layout: page
 		 수도권의 발전 모습을 나타내는 발전지표는 3개 영역, 8개 하위 영역, 35개 세부지표로 구성되어 있다.<br>
 		 마지막으로 수도권 주민들의 생활상을 볼 수 있는 생활지표는 4개 영역, 11개 하위 영역, 52개 세부지표로 구성되어 있다.
     </p>
-
-  </div>
  </div>
 </div>
