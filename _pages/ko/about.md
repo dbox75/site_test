@@ -20,7 +20,7 @@ layout: page
 <div id="main-content" class="container" role="main">
 
 <div class="contents_box">
-	<div style="margin-top: 20px;">
+	<div style="margin-top: 30px;">
 		<span class="title">수도권 광역지표란?</span>
 		<br><br>
 		
