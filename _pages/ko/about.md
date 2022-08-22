@@ -33,7 +33,7 @@ layout: page
     <div class="goal-tiles add">
         <div class="row no-gutters">
             <div class="col-xs-12 goal-tile">
-    <img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
+    <img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" id="goal-18" alt="수도권 광역지표" />
 		</div>
 		</div>
 		</div>
@@ -47,7 +47,7 @@ layout: page
 		<span class="title">수도권 광역지표란?</span>		
   </div>
  </div>
-			<img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
+
 
 		<br><br>
 <div class="contents_box">
