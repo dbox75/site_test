@@ -28,7 +28,7 @@ layout: page
             정책평가에 필요한 모니터링 기준을 제시하여 수도권의 경쟁력과 주민들의 정주 여건 개선 등<br>
             수요자 맞춤형 정책지원을 위한 데이터 기반 마련을 목적으로 개발되었다.<br><br>
          </p>
-         <br><br>
+         <br>
          <span class="title">수도권 광역지표 체계</span>		
          <br><br>
          <p class="contents">
