@@ -32,7 +32,7 @@ layout: page
     </p>
     <div class="goal-tiles add">
         <div class="row no-gutters">
-            <div class="col-xs-12 col-key goal-tile">
+            <div class="col-xs-12 goal-tile">
     <img src="https://dbox75.github.io/site_test/assets/img/intro_about.png" alt="수도권 광역지표" />
 		</div>
 		</div>
