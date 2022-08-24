@@ -80,9 +80,9 @@ data_fields:
   series: ''
 date_formats: []
 
-#disclaimer:
-#  phase: ''
-#  message: ''
+disclaimer:
+  phase: 'Alpha'
+  message: ''
 
 email_contacts:
   questions: test@example.com
