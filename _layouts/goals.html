@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="sttl">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="icon" />
             </div>
             <div class="sttl">
                 <h1>{{ page.t.general.goals }}</h1>
@@ -24,7 +24,7 @@
         <div class="row no-gutters">
             <div class="col-xs-12 col-key goal-tile">
                 <a href="https://dbox75.github.io/site_test/key/">
-                    <img src="{{ site.goal_image_base }}/{{ page.language }}/key.png" id="goal-1" alt="핵심 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                    <img src="{{ site.goal_image_base }}/{{ page.language }}/key.png" id="goal-1" alt="{{ page.t.general.semi_goal_T }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
                 </a>
             </div>
         </div>   
@@ -33,7 +33,7 @@
         </h2><br>
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-13 goal-titles">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/i01.png" id="goal-18" alt="경쟁력 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i01.png" id="goal-18" alt="{{ page.t.general.semi_goal_A }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div> 
             {% for goal in page.goals %}
             <div class="col-xs-4 col-md-13 goal-tile">
@@ -47,7 +47,7 @@
         </div>
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-13 goal-titles">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/i02.png" id="goal-18" alt="발전 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i02.png" id="goal-18" alt="{{ page.t.general.semi_goal_B }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div>    
             {% endif %}
             
@@ -55,7 +55,7 @@
         </div>
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-13 goal-titles">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/i03.png" id="goal-18" alt="생활 지표" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i03.png" id="goal-18" alt="{{ page.t.general.semi_goal_C }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div>    
             {% endif %}          
           
@@ -68,7 +68,7 @@
             {% endcomment %}
             {% if page.goals.size == 17 %}
             <div class="col-xs-4 col-md-2 goal-tile">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="Temp" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
             </div>
             {% endif %}
         </div>
