@@ -134,7 +134,7 @@ frontpage_introduction_banner:
 goal_image_base: 'https://dbox75.github.io/site_test/assets/img/goals/v6'
 goal_image_extension: ''
 goals_page:
-  title: 수도권 광역지표 온라인 서비스
+  title: general.goals_title
   description: goal.description
   
 graph_color_headline: '#004466'
