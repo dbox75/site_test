@@ -75,21 +75,23 @@
 </div>
 
 <!-- POPUP -->
-<div id="divpop" style="position:absolute;left:5px;top:5px;z-index:200;visibility:hidden;">
+<div id="divpop" style="position:absolute;left:5px;top:300px;z-index:200;visibility:hidden;">
 <table width=300 height=300 cellpadding=2 cellspacing=0>
-<tr>
-    <td style="border:1px #666666 solid" height=260 align=center bgcolor=white>
+  <tr>
+    <td style="border:1px #666666 solid" height=260 align=center bgcolor=white colspan="2">
        <img src="/site_test/assets/img/popup.png" alt="2022년 수도권 광역지표 작성결과 보고서 바로가기" />
     </td>
-</tr>
-<tr>
-        <form name="notice_form">
+  </tr>
+  <tr>
+    <form name="notice_form">
     <td align=left bgcolor=white>
         <input type="checkbox" name="chkbox" value="checkbox"> 오늘 하루 이 창을 열지 않음
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:closeWin();"><B>[닫기]</B></a>
     </td>
-</tr>
-        </form>
+    <td align=right bgcolor=white>
+        <a href="javascript:closeWin();"><B>[닫기]</B></a>
+    </td>
+  </tr>
+  </form>
 </table>
 </div> 
 <script language="Javascript">
