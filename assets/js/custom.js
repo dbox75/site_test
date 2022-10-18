@@ -19,3 +19,15 @@ function zooms(){
     if(nowZoom <= 0.7) alert(" 더 이상 축소할 수 없습니다.")
     if(nowZoom >=1.6) alert(" 더 이상 확대할 수 없습니다.")
 }
+
+function setCookie( name, value, expiredays ) {
+    var todayDate = new Date();
+        todayDate.setDate( todayDate.getDate() + expiredays );
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+    }
+function closeWin() {
+    if ( document.notice_form.chkbox.checked ){
+        setCookie( "maindiv", "done" , 1 );
+    }
+    document.all['divpop'].style.visibility = "hidden";
+}
