@@ -75,9 +75,10 @@ layout: page
    </div>
 </div>
 
-<!-- 요기 -->
-{% // include components/publications/board.html %}
-
+<!-- 요기 주석처리
+{% include components/publications/board.html %}
+//--->
+	
 <h2>### 주요 글로벌 웹사이트</h2>
 
 <span class="title">－**[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록</span>
