@@ -76,7 +76,9 @@ layout: page
 </div>
 
 <!-- 요기 주석처리  -->
-<!-- {% include components/publications/board.html %}  -->
+{{
+	include components/publications/board.html
+}} 
 
 	
 <h2>### 주요 글로벌 웹사이트</h2>
