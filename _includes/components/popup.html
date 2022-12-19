@@ -1,0 +1,29 @@
+<!-- POPUP -->
+<div id="divpop" style="position:absolute;left:5px;top:5px;z-index:200;visibility:hidden;">
+<table width=300 height=300 cellpadding=2 cellspacing=0>
+  <tr>
+    <td style="border:1px #666666 solid" height=260 align=center bgcolor=white colspan="2">
+       <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report.pdf" target="_blank" onclick="javascript:closeWin();"><img src="/site/assets/img/popup.png" alt="2022 수도권 광역지표 분석 보고서 바로가기" /></a>
+    </td>
+  </tr>
+  <tr>
+    <form name="notice_form">
+    <td align=left bgcolor=white>
+        <input type="checkbox" name="chkbox" value="checkbox"> 오늘 하루 이 창을 열지 않음
+    </td>
+    <td align=right bgcolor=white>
+        <a href="javascript:closeWin();"><B>[닫기]</B></a>
+    </td>
+  </tr>
+  </form>
+</table>
+</div> 
+<script language="Javascript">
+cookiedata = document.cookie;   
+if ( cookiedata.indexOf("maindiv=done") < 0 ){     
+    document.all['divpop'].style.visibility = "visible";
+    }
+    else {
+        document.all['divpop'].style.visibility = "hidden";
+}
+</script>
