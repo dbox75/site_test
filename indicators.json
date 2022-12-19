@@ -30,14 +30,6 @@
           "status": "complete"
         },
         {
-          "id": "1-2-2",
-          "title": "인터넷 이용률",
-          "description": "",
-          "keywords": "",
-          "href": "/site_test/1-2-2",
-          "status": "complete"
-        },
-        {
           "id": "1-2-3",
           "title": "가구원당 평균 방의 개수",
           "description": "",
