@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20221219071001">
+        <link rel="stylesheet" href="/site_test/assets/css/style.css?v=20221219073120">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -452,12 +452,13 @@ layout-frontpage
     
 </div>
 
+<!-- 팝업창 호출 부분 -->
 <!-- POPUP -->
 <div id="divpop" style="position:absolute;left:5px;top:5px;z-index:200;visibility:hidden;">
 <table width=300 height=300 cellpadding=2 cellspacing=0>
   <tr>
     <td style="border:1px #666666 solid" height=260 align=center bgcolor=white colspan="2">
-       <a href="https://kostat-gi.github.io/site/assets/img/report/2021년_수도권_광역지표_개발_연구_보고서.pdf" target="_blank" onclick="javascript:closeWin();"><img src="/site_test/assets/img/popup.png" alt="2022년 수도권 광역지표 작성결과 보고서 바로가기" /></a>
+       <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report.pdf" target="_blank" onclick="javascript:closeWin();"><img src="/site/assets/img/popup.png" alt="2022 수도권 광역지표 분석 보고서 바로가기" /></a>
     </td>
   </tr>
   <tr>
@@ -481,6 +482,7 @@ if ( cookiedata.indexOf("maindiv=done") < 0 ){
         document.all['divpop'].style.visibility = "hidden";
 }
 </script>
+
 
 <!-- "_includes/footer.html" 시작 //-->
 
@@ -529,12 +531,12 @@ if ( cookiedata.indexOf("maindiv=done") < 0 ){
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site_test/assets/js/sdg.js?v=20221219071001'></script>
+<script src='/site_test/assets/js/sdg.js?v=20221219073120'></script>
 
 
     
     
-    <script src="/site_test/assets/js/custom.js?v=20221219071001"></script><script>
+    <script src="/site_test/assets/js/custom.js?v=20221219073120"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
