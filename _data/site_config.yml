@@ -5,7 +5,6 @@ analytics:
   gtag: ''
   gtm: ''
   ga_prod: ''
-  
 
 breadcrumbs:
   goal:
