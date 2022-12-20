@@ -6,8 +6,8 @@ layout: page
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://dbox75.github.io/site_test/assets/js/publications.js"></script>
-<link rel="stylesheet" href="https://dbox75.github.io/site_test/assets/css/publications.css">
+<script src="https://kostat-gi.github.io/site/assets/js/publications.js"></script>
+<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/publications.css">
 
 <div class="heading goal-banner goal-13">
     <div class="container">
@@ -23,95 +23,45 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
-	    <div style="margin-top: 30px;">
-	<span class="title2">발간(참고자료) 목록</span>
-	    </div>
+        <div style="margin-top: 30px;">
+            <span class="title2">발간(참고)자료 목록</span>
+        </div>
     </div>
-		
-	
-<br/>
-<div class="top_div">
-   <div class="item">
-      <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-2022.png" alt="1"/>
-         </a>
-      </div>
-      <div>
-         <p> 한국의 SDGs 이행보고서 2022<br></p>
-      </div>
-   </div>
-   
-   <div class="item">
-      <div>
-          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="2"/> 
-          </a>
-      </div>
-      <div>
-          <p> 한국의 SDGs 이행보고서 2021<br></p>
-      </div>
-   </div>
-   
-   <div class="item">
-      <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-2021.png" alt="3"/>    
-          </a>
-      </div>
-      <div>
-         <p>The Sustainable Development Goals Report 2021<br></p>
-      </div>
-   </div>
-   <div class="item">
-      <div>
-          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="4"/>
-         </a>
-      </div>
-      <div>
-        <p>SDGs 지표 톺아보기<br></p>
-      </div>
-   </div>
-</div>
 
-<!-- 요기 주석처리  -->
+    <br>
+    <div class="contents_box" style="font-size:20px">
+	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report.pdf" target="_blank">[PDF 바로가기]</a> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report_hwp.hwpx" target="_blank">[HWP 바로가기]</a><br>
+	<b>[보도자료]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/press_2022_11_10.pdf" target="_blank">수도권 광역지표 개발 및 온라인 시범서비스 시작</a>
+    </div>	
+	
+<!--<div class="part_line">&nbsp;</div>-->
+	
+<!--//  책꽂이 형태 출력 소스임 - 필요시 수정 후 사용 --> 
+{{ include components/publications/book.html }}	
+	
+<div class="under_line">&nbsp;</div>
+	
+<!--//  게시판 형태 출력 소스임 - 자료가 많을 경우에 수정 후 사용 --> 
 {{ include components/publications/board.html }}
 
+    <div class="contents_box" style="font-size:20px">
+	<b>[국가통계포털]</b> <a href="https://kosis.kr/index/index.do" target="_blank">https://kosis.kr/index/index.do</a><br>
+	<b>[국가지표체계(K-indicator)]</b>  <a href="https://www.index.go.kr/unify/main.do?clasCd=10&web=" target="_blank">https://www.index.go.kr/</a><br>
+        <b>[마이크로데이터 통합서비스]</b>  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
+	<b>[질병관리청/지역사회건강조사]</b>  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://chs.kdca.go.kr/chs/index.do</a><br>
+    </div>	
 	
-<h2>### 주요 글로벌 웹사이트</h2>
+<div class="part_line">&nbsp;</div>
+	
+    <div class="contents_box">
+        <div style="margin-top: 30px;">
+            <span class="title2">사이트 구축 참고자료</span>
+        </div>
+	** [Open-SDG 플랫폼] <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
+	** [한국의 SDGs 데이터 플랫폼] <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>
+        
+    </div>	
 
-<span class="title">－**[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록</span>
-
-－**[UN World Data Forum](https://unstats.un.org/unsd/undataforum/)** : 지속가능발전 데이터 및 통계 개선을 목표로 한 세계 최대 규모의 협력 플랫폼
-
-－**[HLPF(High-Level Political Forum)](https://sustainabledevelopment.un.org/hlpf)** : SDGs 이행 점검, 후속 정책 논의를 위해 개설된 UN 차원의 플랫폼
-
-－**[UNESCAP(UN The Economic and Social Commission for Asia and the Pacific)](https://www.unescap.org/)** : UN 아시아 태평양 경제사회위원회
-
-－**[UNESCAP-ENEA(UN ESCAP East and North-East Asia Office)](https://www.unescap.org/subregional-office/east-north-east-asia)** : UN 아시아 태평양 경제사회위원회 동북아 사무소
-
-－**[UNECE(UN Economic Commission for Europe)](https://www.unece.org/info/ece-homepage.html)** : 유엔 유럽 경제 위원회
-
-－**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)** : 유엔 아프리카 경제 위원회
-
-<br>
-### 해외 플랫폼
-
-－**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
-
-－**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/**
-
-－**[미국](https://sdg.data.gov/): https://sdg.data.gov/**
-
-－**[아일랜드](https://irelandsdg.geohive.ie/): https://irelandsdg.geohive.ie/**
-
-－**[폴란드](https://sdg.gov.pl/): https://sdg.gov.pl/**
-
-－**[멕시코](http://agenda2030.mx/#/home): http://agenda2030.mx/#/home**
- <br>	
 
 </div>	
-
-
 
