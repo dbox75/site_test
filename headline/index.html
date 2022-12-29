@@ -103,14 +103,12 @@ var translations = {
         ================================================== -->
 
         
-    <title>데이터 수정: 5.1.2 - 수도권 광역지표 온라인 서비스</title>
+    <title>주요지표 - 수도권 광역지표 온라인 서비스</title>
 
 
 
         <meta name="description" content="">
         <meta property="og:description" content="">
-        
-        <meta name="robots" content="noindex, nofollow">
         
         <link rel="canonical" href="/">
 
@@ -148,7 +146,7 @@ var translations = {
 
     </head>
 <body class="language-ko
-layout-data-editor
+layout-page
 ">
 <!-- <div class="container"> -->
 
@@ -267,135 +265,538 @@ layout-data-editor
 
 
 
+<!-- _layouts/page.html //-->
+
+
+
+
+
 <div id="main-content" class="container" role="main">
-  <div class="row no-gutters">
-    <div class="col-md-12"><h1>데이터 수정: 5.1.2</h1></div>
-  </div>
-  <div class="col-md-12 config-widgets">
-    <div class="col-md-6 data-grid-buttons">
-      <label for="add-column-name">Column name</label>
-      <input id="add-column-name" />
-      <button class="btn btn-primary btn-download" id="add-column">Add column</a>
+	
+
+	    <!--        <h1>주요지표</h1>-->
+        
+            <div class="heading goal-banner goal-13">
+    <div class="container">
+        <div class="row">
+            <div class="sttl">
+                <img src="https://dbox75.github.io/site_test/assets/img/goals/v6/ko/sub_title.png" alt="아이콘" />
+            </div>
+            <div class="sttl">
+                <h1>수도권 광역지표 - 주요지표</h1>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 data-download-buttons">
-      <div>
-        <button class="btn btn-primary btn-download" id="export">Download data</button>
-      </div>
-      
-      
-      
-      
-      <div>
-        <a class="btn btn-primary btn-download" target="_blank" href="https://github.com/dbox75/data_test/tree/develop/data">
-          Go to repository
-        </a>
-      </div>
-      
-    </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="editor-wrapper col-md-12">
-      <div id="editor-holder" style="height: 900px; width: 100%;" class="ag-theme-alpine"></div>
-    </div>
-  </div>
-
-  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
-  <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
-  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
-
-  <script>
-  var httpRequest;
-  var gridOptions;
-  function makeRequest() {
-    httpRequest = new XMLHttpRequest();
-
-    if (!httpRequest) {
-      alert('Giving up :( Cannot create an XMLHTTP instance');
-      return false;
-    }
-    httpRequest.onreadystatechange = displaySpreadsheet;
-    httpRequest.open('GET', 'https://dbox75.github.io/data_test/untranslated/data/5-1-2.csv');
-    httpRequest.send();
-  }
-
-  function displaySpreadsheet() {
-    if (httpRequest.readyState === XMLHttpRequest.DONE) {
-      if (httpRequest.status === 200) {
-        var csvString = httpRequest.responseText;
-        var csvData = Papa.parse(csvString, {header: true});
-        var columnDefs = [],
-            rowData = [];
-        if (csvData.data.length > 0) {
-          rowData = csvData.data;
-          columnDefs = Object.keys(rowData[0]).map(function(key) {
-            return { field: key, headerName: key };
-          });
-        }
-        var container = document.getElementById('editor-holder');
-        gridOptions = {
-          defaultColDef: {
-            editable: true,
-            resizable: true,
-            minWidth: 100,
-            flex: 1,
-          },
-          columnDefs: columnDefs,
-          rowData: rowData,
-          undoRedoCellEditing: true,
-          undoRedoCellEditingLimit: 5,
-          enableCellChangeFlash: true,
-          enterMovesDownAfterEdit: true,
-          suppressDragLeaveHidesColumns: true,
-          applyColumnDefOrder: true,
-          onCellValueChanged: function(info) {
-            if (info.rowIndex + 1 === this.api.getDisplayedRowCount()) {
-              this.api.applyTransaction({
-                add: [{}],
-              });
-            }
-          }
-        };
-
-        new agGrid.Grid(container, gridOptions);
-      } else {
-        alert('There was a problem when loading the data. Please edit the data in some other way (such as in Github).');
-      }
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    makeRequest();
-  });
-
-  document.getElementById('export').onclick = function() {
-    gridOptions.api.stopEditing();
-    gridOptions.api.exportDataAsCsv({
-      fileName: 'indicator_5-1-2',
-    });
-  }
-
-  document.getElementById('add-column').onclick = function() {
-    var columnName = document.getElementById('add-column-name').value;
-    if (columnName && columnName !== '') {
-      var columnDefs = gridOptions.columnDefs;
-      var newColumn = { field: columnName, headerName: columnName };
-      if (columnDefs.length > 1) {
-        // Put it second-to-last if possible.
-        columnDefs.splice(columnDefs.length - 1, 0, newColumn);
-      }
-      else {
-        // Otherwise just last.
-        columnDefs.push(newColumn);
-      }
-      gridOptions.api.setColumnDefs(columnDefs);
-    }
-    else {
-      alert('Please enter a column name first and then try again.');
-    }
-  }
-  </script>
 </div>
+
+<div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
+
+<div class="title2">▣ 발전지표</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 기초 역량과 여건 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">기초 역량과 여건 - </label>
+        5.1
+    </span>
+    재정
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/5-1-1">
+            재정자립도
+        </a>
+    </div>
+</div>
+  
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">기초 역량과 여건 - </label>
+        5.2
+    </span>
+    주거/교통
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.2.5
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/5-2-5">
+            대중교통수송분담률
+        </a>
+    </div>
+</div>        
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">기초 역량과 여건 - </label>
+        5.3
+    </span>
+    교육/훈련
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.3.4
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/5-3-4">
+            학교생활 만족도
+        </a>
+    </div>
+</div>      
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">기초 역량과 여건 - </label>
+        5.4
+    </span>
+    인구/건강
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.4.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/5-4-1">
+            합계출산율
+        </a>
+    </div>
+</div>      
+    
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 경제적 성과 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">경제적 성과 - </label>
+        6.1
+    </span>
+    성장/혁신
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            6.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/6-1-2">
+            연구개발투자비율(GDP 대비)
+        </a>
+    </div>
+</div>  
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">경제적 성과 - </label>
+        6.2
+    </span>
+    일
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            6.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/6-2-1">
+            고용률
+        </a>
+    </div>
+</div>      
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">경제적 성과 - </label>
+        6.3
+    </span>
+    소득/소비/자산
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            6.3.3
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/6-3-3">
+            가구순자산
+        </a>
+    </div>
+</div>  
+
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 지속가능성 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">지속가능성 - </label>
+        7.1
+    </span>
+    환경
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            7.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/7-1-2">
+            미세먼지 대기오염도(PM 2.5 농도)
+        </a>
+    </div>
+</div>  
+
+<div class="part_line">&nbsp;</div>
+    
+<div class="title2">▣ 생활지표</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 내면세계 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">내면세계 - </label>
+        8.1
+    </span>
+    주관적 웰빙
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            8.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/8-1-1">
+            삶의 만족도
+        </a>
+    </div>
+</div>      
+    
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 개인생활 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.1
+    </span>
+    건강
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-1-2">
+            인구 십만 명당 자살률
+        </a>
+    </div>
+</div>  
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.2
+    </span>
+    교육/훈련
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-2-1">
+            학교생활 만족도
+        </a>
+    </div>
+</div> 
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.3
+    </span>
+    일
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.3.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-3-2">
+            근로여건만족도
+        </a>
+    </div>
+</div> 
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.4
+    </span>
+    소득/소비
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.4.3
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-4-3">
+            주관적 소득수준
+        </a>
+    </div>
+</div> 
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.5
+    </span>
+    문화/여가
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.5.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-5-1">
+            여가활용 만족도
+        </a>
+    </div>
+</div> 
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">개인생활 - </label>
+        9.6
+    </span>
+    주거
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.6.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-6-1">
+            주거환경 만족도
+        </a>
+    </div>
+</div> 
+    
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 공동생활 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">공동생활 - </label>
+        10.1
+    </span>
+    가족/친밀성
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            10.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/10-1-2">
+            가족관계 만족도
+        </a>
+    </div>
+</div>  
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">공동생활 - </label>
+        10.2
+    </span>
+    시민사회
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            10.2.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/10-2-2">
+            자원봉사참여율
+        </a>
+    </div>
+</div>
+    
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- 환경 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">환경 - </label>
+        11.1
+    </span>
+    생활환경
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            11.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/11-1-1">
+            1인당 생활폐기물 배출
+        </a>
+    </div>
+</div>  
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">환경 - </label>
+        11.2
+    </span>
+    안전
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            11.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/11-2-1">
+            인구 천 명당 범죄발생건수
+        </a>
+    </div>
+</div>  
+        
+</div>
+
+        
+
+
+</div>
+
+
+
 <!-- "_includes/footer.html" 시작 //-->
 
 <footer role="contentinfo">
@@ -526,3 +927,4 @@ $(function() {
 </html>
 
 <!-- "_includes/footer.html" 끝 //-->
+
